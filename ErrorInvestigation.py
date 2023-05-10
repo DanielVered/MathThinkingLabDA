@@ -21,7 +21,7 @@ def get_plan_trials(trials_plans_path: str):
     
     # creating a dict of {plan_file_name: uids_list}
     plans_uids = []
-    for plan_file_name in trails_plans:
+    for plan_file_name in trials_plans:
         plan_path = trials_plans_path + f'\{plan_file_name}'
         plan = pd.read_csv(plan_path, usecols=['uid'])
         plan['uid'] = plan['uid'].astype(int) # making sure all uids are ints
@@ -65,8 +65,8 @@ def find_actual_trials(trials_plans_path: str, trials_results_path: str, trials_
         # and if so - add it to the actual_trials dict
         curr_plan_uids = all_plans_uids.copy()
         for r_uid in res_uids:
-            curr_plan_uids = [(p_name, p_uids) for p_name, p_uids in curr_plan_uids if p_uids != -1]
-            curr_plan_uids = [(p_name, p_uids[p_uids.index(r_uid):]) if r_uid in p_uids else (-1, -1) for p_name, p_uids in curr_plan_uids]
+            curr_plan_uids = [(p_name, p_uids) for p_name, p_uids in curr_plan_uids if r_uid in p_uids]
+            curr_plan_uids = [(p_name, p_uids[p_uids.index(r_uid):]) for p_name, p_uids in curr_plan_uids]
         matched_plan_name = curr_plan_uids[0][0] if curr_plan_uids != [] else 'not found'
         actual_trials.update({res_file_name: matched_plan_name})
 
