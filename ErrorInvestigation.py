@@ -13,21 +13,21 @@ def get_plan_trials(trials_plans_path: str):
     parameters:
         trials_plans_path: a path to a directory of csv files containing the original trails plans.
 
-    return: a dictionary in the following format:
+    return: a list in the following format: [(file_name, uids)]
     """
     
     # importing the file names from directory
-    trails_plans = [f for f in listdir(trials_plans_path) if isfile(join(trials_plans_path, f))]
+    trials_plans = [f for f in listdir(trials_plans_path) if isfile(join(trials_plans_path, f))]
     
     # creating a dict of {plan_file_name: uids_list}
-    plans_uids = {}
+    plans_uids = []
     for plan_file_name in trails_plans:
         plan_path = trials_plans_path + f'\{plan_file_name}'
         plan = pd.read_csv(plan_path, usecols=['uid'])
         plan['uid'] = plan['uid'].astype(int) # making sure all uids are ints
         plan.dropna(inplace=True)
         plan.drop_duplicates(inplace=True)
-        plans_uids.update({plan_file_name: plan['uid'].to_list()})
+        plans_uids.append((plan_file_name, plan['uid'].to_list()))
     
     return plans_uids
 
@@ -50,6 +50,7 @@ def find_actual_trials(trials_plans_path: str, trials_results_path: str, trials_
     
     # searching for the correct original plan for each results file
     actual_trials = {}
+    plans_uids = get_plan_trials(trials_plans_path) # importing original plans' uids
     for res_file_name in trials_results:
         res_path = trials_results_path + f'\{res_file_name}'
         res = pd.read_csv(res_path, usecols=['uid'])
@@ -59,12 +60,12 @@ def find_actual_trials(trials_plans_path: str, trials_results_path: str, trials_
         res_uids = res['uid'].to_list()
         
         # iterating over all plan files to check for a match
-        found = True # a status bool, if not changes - we found the plan file
-        plans_uids = get_plan_trials(trials_plans_path)
-        for plan_file_name, plan_uids in plans_uids.items():
-            if res_uids == plan_uids:
-                actual_trials.update({res_file_name: plan_file_name})
-                print(f'found a match for: {plan_file_name}')
-                break
-    
+        # found = True # a status bool, if not changes - we found the plan file
+        curr_plan_uids = plans_uids.copy()
+        for r_uid in res_uids:
+            curr_plan_uids = [(p_name, p_uids) for p_name, p_uids in curr_plan_uids if p_uids != -1]
+            curr_plan_uids = [(p_name, p_uids[p_uids.index(r_uid):]) if r_uid in p_uids else (-1, -1) for p_name, p_uids in curr_plan_uids]
+        matched_plan_name = curr_plan_uids[0][0] if curr_plan_uids != [] else 'not found'
+        actual_trials.update({res_file_name: matched_plan_name})
+
     return actual_trials
