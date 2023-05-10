@@ -72,7 +72,7 @@ def find_actual_trials(trials_plans_path: str, trials_results_path: str, trials_
 
     final_msg = """found as following:"""
     for res_name, plan_name in actual_trials.items():
-        final_msg += f"\n --- results file: '{res_name}' ran with original file: '{plan_name}'"
+        final_msg += f"\n--- results file: '{res_name}' \n---original file: '{plan_name}'"
         plan_uids = [uids for p_name, uids in all_plans_uids if p_name == plan_name][0]
         res_uids = all_res_uids[res_name]
         final_msg += f"\n result uids: \n {res_uids}, \n plan uids: \n {plan_uids}"
