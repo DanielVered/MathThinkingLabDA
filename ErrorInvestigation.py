@@ -50,7 +50,8 @@ def find_actual_trials(trials_plans_path: str, trials_results_path: str, trials_
     
     # searching for the correct original plan for each results file
     actual_trials = {}
-    plans_uids = get_plan_trials(trials_plans_path) # importing original plans' uids
+    all_res_uids = {} # just keeping them for later printing
+    all_plans_uids = get_plan_trials(trials_plans_path) # importing original plans' uids
     for res_file_name in trials_results:
         res_path = trials_results_path + f'\{res_file_name}'
         res = pd.read_csv(res_path, usecols=['uid'])
@@ -58,14 +59,23 @@ def find_actual_trials(trials_plans_path: str, trials_results_path: str, trials_
         res.drop_duplicates(inplace=True)
         res['uid'] = res['uid'].astype(int) # making sure all uids are ints
         res_uids = res['uid'].to_list()
+        all_res_uids.update({res_file_name: res_uids})
         
-        # iterating over all plan files to check for a match
-        # found = True # a status bool, if not changes - we found the plan file
-        curr_plan_uids = plans_uids.copy()
+        # iterating over all uids in res to find a match,
+        # and if so - add it to the actual_trials dict
+        curr_plan_uids = all_plans_uids.copy()
         for r_uid in res_uids:
             curr_plan_uids = [(p_name, p_uids) for p_name, p_uids in curr_plan_uids if p_uids != -1]
             curr_plan_uids = [(p_name, p_uids[p_uids.index(r_uid):]) if r_uid in p_uids else (-1, -1) for p_name, p_uids in curr_plan_uids]
         matched_plan_name = curr_plan_uids[0][0] if curr_plan_uids != [] else 'not found'
         actual_trials.update({res_file_name: matched_plan_name})
 
+    final_msg = """found as following:"""
+    for res_name, plan_name in actual_trials.items():
+        final_msg += f"\n --- results file: '{res_name}' ran with original file: '{plan_name}'"
+        plan_uids = [uids for p_name, uids in all_plans_uids if p_name == plan_name][0]
+        res_uids = all_res_uids[res_name]
+        final_msg += f"\n result uids: \n {res_uids}, \n plan uids: \n {plan_uids}"
+    
+    print(final_msg)
     return actual_trials
