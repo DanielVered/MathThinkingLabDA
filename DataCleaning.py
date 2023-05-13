@@ -47,13 +47,12 @@ def drop_first_line(raw_data):
 ##### actual cleaning #####
 ###########################
 
-raw_data = pd.read_excel(cleaning_config['raw_data_path'])
+# raw_data = pd.read_excel(cleaning_config['raw_data_path'])
 
-def main(raw_data):
+def clean_data(raw_data):
     drop_columns(raw_data, cleaning_config['unnecessary_columns'])
     convert_types(raw_data, cleaning_config['type_conversions'])
     raw_data = drop_first_loop(raw_data)
     raw_data = drop_first_line(raw_data)
+    raw_data.reset_index(inplace=True)
     return raw_data
-
-raw_data = main(raw_data)
