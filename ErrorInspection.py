@@ -70,6 +70,7 @@ def find_actual_trials(trials_plans_path: str, trials_results_path: str, trials_
         matched_plan_name = curr_plan_uids[0][0] if curr_plan_uids != [] else 'not found'
         actual_trials.update({res_file_name: matched_plan_name})
 
+    # generating an explanatory message for the user, with actual files and uids
     final_msg = """found as following:"""
     for res_name, plan_name in actual_trials.items():
         final_msg += f"\n--- results file: '{res_name}' \n---original file: '{plan_name}'"
