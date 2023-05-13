@@ -3,21 +3,6 @@ from os import listdir
 from os.path import isfile, join
 from ProcessingConfig import *
 
-###########################
-##### actual cleaning #####
-###########################
-
-raw_data = pd.read_excel(cleaning_config['raw_data_path'])
-
-def main(raw_data):
-    drop_columns(raw_data, cleaning_config['unnecessary_columns'])
-    convert_types(raw_data, cleaning_config['type_conversions'])
-    drop_first_loop(raw_data)
-    drop_first_line(raw_data)
-    return None    
-
-main(raw_data)
-
 ######################################
 ##### clean functions definition #####
 ######################################
@@ -49,10 +34,26 @@ def drop_first_loop(raw_data):
     # where the first loop is essentially a variable assignment.
     first_loop_filter = raw_data['step_id'] != 2
     raw_data = raw_data[first_loop_filter]
-    return None
+    return raw_data
 
 def drop_first_line(raw_data):
     # note that 'loop_step' is an id of each step in the loop, ranging 0-len(loop).
     first_line_filter = raw_data['loop_step'] != 0
     raw_data = raw_data[first_line_filter]
-    return None
+    return raw_data
+
+
+###########################
+##### actual cleaning #####
+###########################
+
+raw_data = pd.read_excel(cleaning_config['raw_data_path'])
+
+def main(raw_data):
+    drop_columns(raw_data, cleaning_config['unnecessary_columns'])
+    convert_types(raw_data, cleaning_config['type_conversions'])
+    raw_data = drop_first_loop(raw_data)
+    raw_data = drop_first_line(raw_data)
+    return raw_data
+
+raw_data = main(raw_data)
