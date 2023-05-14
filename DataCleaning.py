@@ -42,6 +42,7 @@ def drop_first_line(raw_data):
     raw_data = raw_data[first_line_filter]
     return raw_data
 
+
 # filtering out the outliers
 
 def is_outlier(x, x_q1, x_q3, x_iqr, threshold):
@@ -96,6 +97,6 @@ def clean_data(raw_data):
     return raw_data
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     raw_data = pd.read_excel(cleaning_config['raw_data_path'])
     raw_data = clean_data(raw_data)
