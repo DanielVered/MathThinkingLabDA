@@ -55,6 +55,30 @@ def is_outlier(x, x_q1, x_q3, x_iqr, threshold):
     """finding if a datapoint is an outlier using the IQR."""
     return (x_q1 - x) / x_iqr >= threshold or (x - x_q3) / x_iqr >= threshold
 
+
+def filter_trail_outliers(raw_data, threshold):
+    """ filtering out outlier trials in terms of success rate within subject using IQR,
+        according to the given threshold.
+    """
+    # filtering only necessary columns
+    response_success = raw_data[['subject', 'trial', 'correct']].copy()
+    response_success.drop_duplicates(inplace=True)
+    
+    # calculating response success rate per trial
+    success_per_trial = response_success[['subject', 'trial', 'correct']].groupby(['subject', 'trial']).mean()
+    success_per_trial.rename(columns={'correct': 'success_rate'}, inplace=True)
+    
+    # actually finding the trial outliers in terms of success rate within subject
+    trial_success_q1, trial_success_q3 = success_per_trial['success_rate'].quantile([0.25, 0.75])
+    trial_success_iqr = trial_success_q1 - trial_success_q3
+    outlier_trials_mask = success_per_trial['success_rate'].apply(is_outlier
+                                                                  , args=(trial_success_q1, trial_success_q3, trial_success_iqr, 2))
+    filtered_data = raw_data.set_index(['subject', 'trial'])[ ~ outlier_trials_mask]
+    
+    n_rows_filtered = outlier_trials_mask.shape[0] 
+    print(f"--filter_trail_outliers: {n_rows_filtered} rows were filtered out.")
+    return filtered_data.reset_index()
+
 def filter_step_outliers(raw_data, threshold):
     """ filtering out outlier steps in terms of response time using IQR,
         according to the given threshold.
@@ -89,29 +113,6 @@ def filter_step_outliers(raw_data, threshold):
     print(f"--filter_step_outliers: {n_rows_filtered} rows were filtered out.")
     return raw_data[ ~ step_outlier_mask]
 
-
-def filter_trail_outliers(raw_data, threshold):
-    """ filtering out outlier trials in terms of success rate within subject using IQR,
-        according to the given threshold.
-    """
-    # filtering only necessary columns
-    response_success = raw_data[['subject', 'trial', 'correct']].copy()
-    response_success.drop_duplicates(inplace=True)
-    
-    # calculating response success rate per trial
-    success_per_trial = response_success[['subject', 'trial', 'correct']].groupby(['subject', 'trial']).mean()
-    success_per_trial.rename(columns={'correct': 'success_rate'}, inplace=True)
-    
-    # actually finding the trial outliers in terms of success rate within subject
-    trial_success_q1, trial_success_q3 = success_per_trial['success_rate'].quantile([0.25, 0.75])
-    trial_success_iqr = trial_success_q1 - trial_success_q3
-    outlier_trials_mask = success_per_trial['success_rate'].apply(is_outlier
-                                                                  , args=(trial_success_q1, trial_success_q3, trial_success_iqr, 2))
-    filtered_data = raw_data.set_index(['subject', 'trial'])[ ~ outlier_trials_mask]
-    
-    n_rows_filtered = outlier_trials_mask.shape[0] 
-    print(f"--filter_trail_outliers: {n_rows_filtered} rows were filtered out.")
-    return filtered_data.reset_index()
     
 
 ###########################
@@ -125,8 +126,8 @@ def clean_data(raw_data):
     convert_types(raw_data, cleaning_config['type_conversions'])
     raw_data = drop_first_loop(raw_data)
     raw_data = drop_first_line(raw_data)
-    raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     raw_data = filter_trail_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
+    raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     
     raw_data.reset_index(inplace=True)
     return raw_data
