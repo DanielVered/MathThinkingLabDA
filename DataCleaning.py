@@ -125,8 +125,8 @@ def clean_data(raw_data):
     convert_types(raw_data, cleaning_config['type_conversions'])
     raw_data = drop_first_loop(raw_data)
     raw_data = drop_first_line(raw_data)
-    raw_data = filter_step_outliers(raw_data, threshold=2)
-    raw_data = filter_trail_outliers(raw_data, threshold=2)
+    raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
+    raw_data = filter_trail_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     
     raw_data.reset_index(inplace=True)
     return raw_data
