@@ -62,29 +62,29 @@ def filter_trail_outliers(raw_data, threshold):
     """
     # filtering only necessary columns
     response_success = raw_data[['subject', 'trial', 'correct']].copy()
-    response_success.drop_duplicates(inplace=True)
     
     # calculating response success rate per trial
     success_per_trial = response_success[['subject', 'trial', 'correct']].groupby(['subject', 'trial']).mean()
-    success_per_trial.rename(columns={'correct': 'success_rate'}, inplace=True)
+    success_per_trial.rename(columns={'correct': 'trial_success_rate'}, inplace=True)
     
     # actually finding the trial outliers in terms of success rate within subject
-    trial_success_q1, trial_success_q3 = success_per_trial['success_rate'].quantile([0.25, 0.75])
+    trial_success_q1, trial_success_q3 = success_per_trial['trial_success_rate'].quantile([0.25, 0.75])
     trial_success_iqr = trial_success_q1 - trial_success_q3
-    outlier_trials_mask = success_per_trial['success_rate'].apply(is_outlier
-                                                                  , args=(trial_success_q1, trial_success_q3, trial_success_iqr, 2))
-    filtered_data = raw_data.set_index(['subject', 'trial'])[ ~ outlier_trials_mask]
     
-    n_rows_filtered = outlier_trials_mask.shape[0] 
+    success_per_trial = raw_data.merge(success_per_trial, how='left', left_on=['subject', 'trial'], right_index=True)
+    outlier_trials_mask = success_per_trial['trial_success_rate'].apply(is_outlier
+                                                                        , args=(trial_success_q1, trial_success_q3
+                                                                                , trial_success_iqr, threshold))
+    
+    n_rows_filtered = outlier_trials_mask.sum() 
     print(f"--filter_trail_outliers: {n_rows_filtered} rows were filtered out.")
-    return filtered_data.reset_index()
+    return raw_data[ ~ outlier_trials_mask]
 
 def filter_step_outliers(raw_data, threshold):
     """ filtering out outlier steps in terms of response time using IQR,
         according to the given threshold.
     """
     response_times = raw_data[['subject', 'step_num', 'rt']].copy()
-    response_times.drop_duplicates(inplace=True)
     
     # calculating general response time quantiles
     g_rt_q1, g_rt_q3 = response_times['rt'].quantile([0.25, 0.75])
