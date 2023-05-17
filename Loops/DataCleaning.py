@@ -23,8 +23,7 @@ def convert_types(raw_data, conversions: dict):
             raw_data[col].fillna(0, inplace=True)
             raw_data[col] = raw_data[col].astype(type_)
     return None
-
-
+    
 # filtering out first loop in a program, first line in a loop
 
 def drop_first_loop(raw_data):
@@ -128,7 +127,7 @@ def clean_data(raw_data):
     drop_columns(raw_data, cleaning_config['unnecessary_columns'])
     convert_types(raw_data, cleaning_config['type_conversions'])
     raw_data = drop_first_loop(raw_data)
-    # raw_data = drop_first_line(raw_data)
+    raw_data = drop_first_line(raw_data)
     raw_data = filter_trail_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     
