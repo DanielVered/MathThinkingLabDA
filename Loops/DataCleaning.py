@@ -16,11 +16,11 @@ def drop_columns(raw_data, cols: list):
     return None
 
 def convert_types(raw_data, conversions: dict):
-    """ making type conversions to necessary columns a conversion dict in cleaning_config
+    """ making type conversions to necessary columns a conversion dict in cleaning_config.
     """
     for type_, cols in conversions.items():
         for col in cols:
-            raw_data.fillna(0, inplace=True)
+            raw_data[col].fillna(0, inplace=True)
             raw_data[col] = raw_data[col].astype(type_)
     return None
 
@@ -39,7 +39,9 @@ def drop_first_loop(raw_data):
     print(f"--drop_first_loop: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
-def drop_first_line(raw_data):
+def drop_first_line(raw_data):    
+    """ filtering out first line within each loop.
+    """
     # note that 'loop_step' is an id of each step in the loop, ranging 0-len(loop).
     first_line_filter = raw_data['loop_step'] != 0
     raw_data = raw_data[first_line_filter]
@@ -71,7 +73,8 @@ def filter_trail_outliers(raw_data, threshold):
     trial_success_q1, trial_success_q3 = success_per_trial['trial_success_rate'].quantile([0.25, 0.75])
     trial_success_iqr = trial_success_q1 - trial_success_q3
     
-    success_per_trial = raw_data.merge(success_per_trial, how='left', left_on=['subject', 'trial'], right_index=True)
+    success_per_trial = raw_data[['subject', 'trial']].merge(success_per_trial
+                                                             , how='left', left_on=['subject', 'trial'], right_index=True)
     outlier_trials_mask = success_per_trial['trial_success_rate'].apply(is_outlier
                                                                         , args=(trial_success_q1, trial_success_q3
                                                                                 , trial_success_iqr, threshold))
@@ -125,7 +128,7 @@ def clean_data(raw_data):
     drop_columns(raw_data, cleaning_config['unnecessary_columns'])
     convert_types(raw_data, cleaning_config['type_conversions'])
     raw_data = drop_first_loop(raw_data)
-    raw_data = drop_first_line(raw_data)
+    # raw_data = drop_first_line(raw_data)
     raw_data = filter_trail_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     
