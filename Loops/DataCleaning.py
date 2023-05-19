@@ -20,7 +20,10 @@ def convert_types(raw_data, conversions: dict):
     """
     for type_, cols in conversions.items():
         for col in cols:
-            raw_data[col].fillna(0, inplace=True)
+            if type_ == int:
+                raw_data[col].fillna(-1, inplace=True)
+            else:
+                raw_data[col].fillna(0, inplace=True)
             raw_data[col] = raw_data[col].astype(type_)
     return None
     
@@ -35,7 +38,7 @@ def drop_first_loop(raw_data):
     raw_data = raw_data[first_loop_filter]
     
     n_rows_filtered = first_loop_filter.size - first_loop_filter.sum()
-    print(f"--drop_first_loop: {n_rows_filtered} rows were filtered out.")
+    print(f"-- drop_first_loop: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
 def drop_first_line(raw_data):    
@@ -46,9 +49,8 @@ def drop_first_line(raw_data):
     raw_data = raw_data[first_line_filter]
     
     n_rows_filtered = first_line_filter.size - first_line_filter.sum()
-    print(f"--drop_first_line: {n_rows_filtered} rows were filtered out.")
+    print(f"-- drop_first_line: {n_rows_filtered} rows were filtered out.")
     return raw_data
-
 
 # filtering out the outliers
 
@@ -79,7 +81,7 @@ def filter_trail_outliers(raw_data, threshold):
                                                                                 , trial_success_iqr, threshold))
     
     n_rows_filtered = outlier_trials_mask.sum() 
-    print(f"--filter_trail_outliers: {n_rows_filtered} rows were filtered out.")
+    print(f"-- filter_trail_outliers: {n_rows_filtered} rows were filtered out.")
     return raw_data[ ~ outlier_trials_mask]
 
 def filter_step_outliers(raw_data, threshold):
@@ -112,7 +114,7 @@ def filter_step_outliers(raw_data, threshold):
     step_outlier_mask = response_times.apply(is_subjective_outlier, axis=1)
     
     n_rows_filtered = step_outlier_mask.sum()
-    print(f"--filter_step_outliers: {n_rows_filtered} rows were filtered out.")
+    print(f"-- filter_step_outliers: {n_rows_filtered} rows were filtered out.")
     return raw_data[ ~ step_outlier_mask]
 
     
