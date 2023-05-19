@@ -55,7 +55,7 @@ def drop_first_line(raw_data):
 # filtering out the outliers
 
 def is_outlier(x, x_q1, x_q3, x_iqr, threshold):
-    """finding if a datapoint is an outlier using the IQR."""
+    """finding if a datapoint is an outlier using IQR, according to a given threshold."""
     return (x_q1 - x) / x_iqr >= threshold or (x - x_q3) / x_iqr >= threshold
 
 
@@ -67,7 +67,7 @@ def filter_trail_outliers(raw_data, threshold):
     response_success = raw_data[['subject', 'trial', 'correct']].copy()
     
     # calculating response success rate per trial
-    success_per_trial = response_success[['subject', 'trial', 'correct']].groupby(['subject', 'trial']).mean()
+    success_per_trial = response_success.groupby(['subject', 'trial']).mean()
     success_per_trial.rename(columns={'correct': 'trial_success_rate'}, inplace=True)
     
     # actually finding the trial outliers in terms of success rate within subject
