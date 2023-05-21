@@ -12,7 +12,10 @@ from ProcessingConfig import *
 def drop_columns(raw_data, cols: list):
     """ filtering out unnecessary columns according to a columns list in cleaning_config.
     """
-    raw_data.drop(cols, axis=1, inplace=True)
+    try:
+        raw_data.drop(cols, axis=1, inplace=True)
+    except:
+        pass
     return None
 
 def convert_types(raw_data, conversions: dict):
@@ -41,25 +44,27 @@ def drop_first_loop(raw_data):
     print(f"-- drop_first_loop: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
-def drop_first_line(raw_data):    
-    """ filtering out first line within each loop.
+def only_first_line(raw_data):    
+    """ filtering out non-first lines within each loop.
     """
     # note that 'loop_step' is an id of each step in the loop, ranging 0-len(loop).
-    first_line_filter = raw_data['loop_step'] != 0
+    first_line_filter = raw_data['loop_step'] == 0
     raw_data = raw_data[first_line_filter]
     
     n_rows_filtered = first_line_filter.size - first_line_filter.sum()
-    print(f"-- drop_first_line: {n_rows_filtered} rows were filtered out.")
+    print(f"-- only_first_line: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
-# filtering out the outliers
+# filtering out the outlier trials and steps
 
 def is_outlier(x, x_q1, x_q3, x_iqr, threshold):
     """finding if a datapoint is an outlier using IQR, according to a given threshold."""
+    if x_iqr == 0:
+        return False
     return (x_q1 - x) / x_iqr >= threshold or (x - x_q3) / x_iqr >= threshold
 
 
-def filter_trail_outliers(raw_data, threshold):
+def filter_trial_outliers(raw_data, threshold):
     """ filtering out outlier trials in terms of success rate within subject using IQR,
         according to the given threshold.
     """
@@ -72,7 +77,7 @@ def filter_trail_outliers(raw_data, threshold):
     
     # actually finding the trial outliers in terms of success rate within subject
     trial_success_q1, trial_success_q3 = success_per_trial['trial_success_rate'].quantile([0.25, 0.75])
-    trial_success_iqr = trial_success_q1 - trial_success_q3
+    trial_success_iqr = trial_success_q3 - trial_success_q1
     
     success_per_trial = raw_data[['subject', 'trial']].merge(success_per_trial
                                                              , how='left', left_on=['subject', 'trial'], right_index=True)
@@ -81,7 +86,7 @@ def filter_trail_outliers(raw_data, threshold):
                                                                                 , trial_success_iqr, threshold))
     
     n_rows_filtered = outlier_trials_mask.sum() 
-    print(f"-- filter_trail_outliers: {n_rows_filtered} rows were filtered out.")
+    print(f"-- filter_trial_outliers: {n_rows_filtered} rows were filtered out.")
     return raw_data[ ~ outlier_trials_mask]
 
 def filter_step_outliers(raw_data, threshold):
@@ -117,20 +122,18 @@ def filter_step_outliers(raw_data, threshold):
     print(f"-- filter_step_outliers: {n_rows_filtered} rows were filtered out.")
     return raw_data[ ~ step_outlier_mask]
 
-    
 
 ###########################
 ##### actual cleaning #####
 ###########################
 
-# raw_data = pd.read_excel(cleaning_config['raw_data_path'])
-
-def clean_data(raw_data):
+def clean_data(raw_data, only_first_lines=True):
     drop_columns(raw_data, cleaning_config['unnecessary_columns'])
     convert_types(raw_data, cleaning_config['type_conversions'])
     raw_data = drop_first_loop(raw_data)
-    raw_data = drop_first_line(raw_data)
-    raw_data = filter_trail_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
+    if only_first_line:
+        raw_data = only_first_line(raw_data)
+    raw_data = filter_trial_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     
     raw_data.reset_index(inplace=True)
