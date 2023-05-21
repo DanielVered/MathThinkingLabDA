@@ -30,7 +30,7 @@ def convert_types(raw_data, conversions: dict):
             raw_data[col] = raw_data[col].astype(type_)
     return None
     
-# filtering out first loop in a program, first line in a loop
+# filtering out first loop in a program
 
 def drop_first_loop(raw_data):
     """ filtering out first loop within each program.
@@ -42,17 +42,6 @@ def drop_first_loop(raw_data):
     
     n_rows_filtered = first_loop_filter.size - first_loop_filter.sum()
     print(f"-- drop_first_loop: {n_rows_filtered} rows were filtered out.")
-    return raw_data
-
-def only_first_line(raw_data):    
-    """ filtering out non-first lines within each loop.
-    """
-    # note that 'loop_step' is an id of each step in the loop, ranging 0-len(loop).
-    first_line_filter = raw_data['loop_step'] == 0
-    raw_data = raw_data[first_line_filter]
-    
-    n_rows_filtered = first_line_filter.size - first_line_filter.sum()
-    print(f"-- only_first_line: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
 # filtering out the outlier trials and steps
@@ -127,12 +116,10 @@ def filter_step_outliers(raw_data, threshold):
 ##### actual cleaning #####
 ###########################
 
-def clean_data(raw_data, only_first_lines=True):
+def clean_data(raw_data):
     drop_columns(raw_data, cleaning_config['unnecessary_columns'])
     convert_types(raw_data, cleaning_config['type_conversions'])
     raw_data = drop_first_loop(raw_data)
-    if only_first_line:
-        raw_data = only_first_line(raw_data)
     raw_data = filter_trial_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
     
