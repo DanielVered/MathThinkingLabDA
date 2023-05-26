@@ -182,7 +182,9 @@ def filter_slow_steps(raw_data, threshold):
         slow_rate_per_subject = (slow_steps_per_subject / total_steps_per_subject * 100).round(2)
         
         slow_rate_per_subject.rename(columns={'step_num': 'slow steps rate (%)'}, inplace=True)
-        slow_rate_per_subject= slow_rate_per_subject.sort_values(by='slow steps rate (%)')
+        slow_rate_per_subject.fillna(0, inplace=True)
+        slow_rate_per_subject = slow_rate_per_subject.sort_values(by='slow steps rate (%)')
+
         print('Here is a summary of slow steps rate per subjects:', '\n    ', slow_rate_per_subject)
     else:
         print("filter_slow_steps: No slow steps detected.")
