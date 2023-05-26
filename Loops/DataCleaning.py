@@ -1,13 +1,9 @@
 import pandas as pd
-from os import listdir
-from os.path import isfile, join
 from ProcessingConfig import *
 
-######################################
-##### clean functions definition #####
-######################################
-
-# initial pre-processing
+##############################
+##### Initial Processing #####
+##############################
 
 def drop_columns(raw_data, cols: list):
     """ filtering out unnecessary columns according to a columns list in cleaning_config.
@@ -29,8 +25,6 @@ def convert_types(raw_data, conversions: dict):
                 raw_data[col].fillna(0, inplace=True)
             raw_data[col] = raw_data[col].astype(type_)
     return None
-    
-# filtering out first loop in a program
 
 def drop_first_loop(raw_data):
     """ filtering out first loop within each program.
@@ -41,21 +35,104 @@ def drop_first_loop(raw_data):
     raw_data = raw_data[first_loop_filter]
     
     n_rows_filtered = first_loop_filter.size - first_loop_filter.sum()
-    print(f"-- drop_first_loop: {n_rows_filtered} rows were filtered out.")
+    print(f"drop_first_loop: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
-# filtering out the outlier trials and steps
+def only_first_line(raw_data):    
+    """ filtering out non-first lines within each loop.
+    """
+    # note that 'loop_step' is an id of each step in the loop, ranging 0-len(loop).
+    first_line_filter = raw_data['loop_step'] == 0
+    raw_data = raw_data[first_line_filter]
 
-def is_outlier(x, x_q1, x_q3, x_iqr, threshold):
-    """finding if a datapoint is an outlier using IQR, according to a given threshold."""
-    if x_iqr == 0:
+    n_rows_filtered = first_line_filter.size - first_line_filter.sum()
+    print(f"only_first_line: {n_rows_filtered} rows were filtered out.")
+    return raw_data
+
+##############################
+##### Outliers Filtering #####
+##############################
+
+def is_negative_outlier(x, x_q1, x_iqr, threshold):
+    """finding if a datapoint is a negative (low) outlier using IQR, according to a given threshold."""
+    if x_iqr == 0 or x > x_q1:
         return False
-    return (x_q1 - x) / x_iqr >= threshold or (x - x_q3) / x_iqr >= threshold
+    
+    return (x_q1 - x) / x_iqr >= threshold
+
+def is_positive_outlier(x, x_q3, x_iqr, threshold):
+    """finding if a datapoint is a negative (low) outlier using IQR, according to a given threshold."""
+    if x_iqr == 0 or x < x_q3:
+        return False
+    
+    return (x - x_q3) / x_iqr >= threshold
+
+def get_outlier_grade(step: pd.Series, col: str):
+    """ Calculating an outlier grade in terms of response time within subject, using IQR.
+    It is assumed that the Series has the following indices: ['q1', 'q3', 'iqr'].
+    """
+    x = step.loc[col]
+    q1, q3, iqr = step.loc['q1'], step.loc['q3'], step.loc['iqr']
+    
+    if iqr == 0 or (q1 <= x and x <= q3): # 0 means inside IQR range.
+        return 0
+    elif x < q1: 
+        return (x - q1) / iqr # negative grade --> slow step
+    elif x > q3:
+        return (x - q3) / iqr # positive grade --> fast step
 
 
-def filter_trial_outliers(raw_data, threshold):
-    """ filtering out outlier trials in terms of success rate within subject using IQR,
-        according to the given threshold.
+def filter_slow_subjects(raw_data, threshold):
+    """filtering out slow subjects in terms of response time using IQR, according to a given threshold."""
+    rt_per_subject = raw_data[['rt', 'subject']].groupby('subject').mean()
+    rt_per_subject.columns = ['mean_rt']
+
+    g_rt_q1, g_rt_q3 = rt_per_subject['mean_rt'].quantile([0.25, 0.75])
+    g_rt_iqr = g_rt_q1 - g_rt_q3
+    
+    rt_per_subject = raw_data[['subject']].merge(rt_per_subject, how='left', left_on='subject', right_index=True)
+
+    slow_subjects_mask = rt_per_subject['mean_rt'].apply(is_positive_outlier
+                                                        , args=(g_rt_q3, g_rt_iqr, threshold))
+    
+    slow_subjects = rt_per_subject[slow_subjects_mask]
+    if slow_subjects.size > 0: # if there are any slow subjects, print an explanatory message
+        n_subjects_filtered = slow_subjects['subject'].nunique()
+        slow_subjects['grade'] = slow_subjects['mean_rt'].apply(lambda x: (x - g_rt_q3) / g_rt_iqr)
+        print(f'filter_slow_subjects: {n_subjects_filtered} slow subjects detected:')
+        print('    ', slow_subjects)
+    else:
+        print('filter_slow_subjects: No slow subjects detected.')
+        
+    return raw_data[~ slow_subjects_mask]
+
+def filter_bad_subjects(raw_data, threshold):
+    """filtering out bad subjects in terms of low success rate using IQR, according to a given threshold."""
+    success_per_subject = raw_data[['correct', 'subject']].groupby('subject').mean()
+    success_per_subject.columns = ['success_rate']
+
+    g_success_q1, g_success_q3 = success_per_subject['success_rate'].quantile([0.25, 0.75])
+    g_success_iqr = g_success_q1 - g_success_q3
+    
+    success_per_subject = raw_data[['subject']].merge(success_per_subject, how='left', left_on='subject', right_index=True)
+
+    bad_subjects_mask = success_per_subject['success_rate'].apply(is_negative_outlier
+                                                        , args=(g_success_q1, g_success_iqr, threshold))
+    
+    bad_subjects = success_per_subject[bad_subjects_mask]
+    if bad_subjects.size > 0: # if there are any bad subjects, print an explanatory message
+        n_subjects_filtered = bad_subjects['subject'].nunique()
+        bad_subjects['grade'] = bad_subjects['success_rate'].apply(lambda x: (g_success_q1 - x) / g_success_iqr)
+        print(f'filter_bad_subjects: {n_subjects_filtered} bad subjects detected (in terms of low success rate):')
+        print(bad_subjects)
+    else:
+        print('filter_bad_subjects: No bad subjects detected (in terms of low success rate).')
+        
+    return raw_data[~ bad_subjects_mask]
+
+def filter_bad_trials(raw_data, threshold):
+    """ filtering out bad trials in terms of low success rate according to an pre-determined threshold.
+    It is important to note that threshold should be within (0, 1).
     """
     # filtering only necessary columns
     response_success = raw_data[['subject', 'trial', 'correct']].copy()
@@ -64,69 +141,50 @@ def filter_trial_outliers(raw_data, threshold):
     success_per_trial = response_success.groupby(['subject', 'trial']).mean()
     success_per_trial.rename(columns={'correct': 'trial_success_rate'}, inplace=True)
     
-    # actually finding the trial outliers in terms of success rate within subject
-    trial_success_q1, trial_success_q3 = success_per_trial['trial_success_rate'].quantile([0.25, 0.75])
-    trial_success_iqr = trial_success_q3 - trial_success_q1
+    success_per_trial = raw_data[['subject', 'trial']].merge(success_per_trial, how='left'
+                                                             , left_on=['subject', 'trial'], right_index=True)
     
-    success_per_trial = raw_data[['subject', 'trial']].merge(success_per_trial
-                                                             , how='left', left_on=['subject', 'trial'], right_index=True)
-    outlier_trials_mask = success_per_trial['trial_success_rate'].apply(is_outlier
-                                                                        , args=(trial_success_q1, trial_success_q3
-                                                                                , trial_success_iqr, threshold))
+    bad_trials_mask = success_per_trial['trial_success_rate'] < threshold
     
-    n_rows_filtered = outlier_trials_mask.sum() 
-    print(f"-- filter_trial_outliers: {n_rows_filtered} rows were filtered out.")
-    return raw_data[ ~ outlier_trials_mask]
+    bad_trials = success_per_trial[bad_trials_mask].drop_duplicates(ignore_index=True)
+    n_trials_filtered = bad_trials.shape[0]
+    if n_trials_filtered > 0: # if there are any bad trials, print an explanatory message
+        print(f"filter_bad_trials: {n_trials_filtered} bad trials were filtered (in terms of low success rate):")
+        print(bad_trials.sort_values(by='trial_success_rate'))
+    else:
+        print(f"filter_bad_trials: No bad trials detected (in terms of low success rate).")
+        
+    return raw_data[ ~ bad_trials_mask]
 
-def filter_step_outliers(raw_data, threshold):
-    """ filtering out outlier steps in terms of response time using IQR,
-        according to the given threshold.
-    """
+def filter_slow_steps(raw_data, threshold):
+    """ filtering out slow steps in terms of response time using IQR, according to the given threshold."""
     response_times = raw_data[['subject', 'step_num', 'rt']].copy()
-    
-    # calculating general response time quantiles
-    g_rt_q1, g_rt_q3 = response_times['rt'].quantile([0.25, 0.75])
-    g_rt_iqr = g_rt_q3 - g_rt_q1    
     
     # calculating response time quantiles and IQR per subject
     quantiles_per_subject = response_times[['rt', 'subject']].groupby('subject').quantile([0.25, 0.75]).unstack()
     quantiles_per_subject.columns = ['q1', 'q3']
     quantiles_per_subject['iqr'] = quantiles_per_subject['q3'] - quantiles_per_subject['q1']
-
-    def is_subjective_outlier(step):
-        """ finding if a step is an outlier in terms of response time within subject,
-            using IQR. this function is used only for 'filter_step_outliers'.
-        """
-        rt = step.loc['rt']
-        subject = step.loc['subject']
-            
-        subject_quantiles = quantiles_per_subject.loc[subject]
-        q1, q3, iqr = subject_quantiles['q1'], subject_quantiles['q3'], subject_quantiles['iqr']
-        return is_outlier(rt, q1, q3, iqr, threshold)
+    
+    response_times = response_times.merge(quantiles_per_subject, how='left', left_on='subject', right_index=True)
 
     # actually filtering the outlier steps
-    step_outlier_mask = response_times.apply(is_subjective_outlier, axis=1)
+    response_times['outlier_grade'] = response_times.apply(get_outlier_grade, args=(['rt']), axis=1)
+    step_outlier_mask = response_times['outlier_grade'] >= threshold
     
-    n_rows_filtered = step_outlier_mask.sum()
-    print(f"-- filter_step_outliers: {n_rows_filtered} rows were filtered out.")
+    slow_steps = response_times[step_outlier_mask].drop_duplicates(ignore_index=True)
+    n_steps_filtered = slow_steps.shape[0]
+    if n_steps_filtered > 0: # if there are any bad subjects, print an explanatory message
+        print(f"filter_slow_steps: {n_steps_filtered} slow steps were filtered out.")
+        
+        # calculating slow steps rate per subject
+        slow_steps_per_subject = slow_steps[['subject', 'step_num']].groupby('subject').nunique()
+        total_steps_per_subject = response_times[['subject', 'step_num']].groupby('subject').nunique()
+        slow_rate_per_subject = (slow_steps_per_subject / total_steps_per_subject * 100).round(2)
+        
+        slow_rate_per_subject.rename(columns={'step_num': 'slow steps rate (%)'}, inplace=True)
+        slow_rate_per_subject= slow_rate_per_subject.sort_values(by='slow steps rate (%)')
+        print('Here is a summary of slow steps rate per subjects:', '\n    ', slow_rate_per_subject)
+    else:
+        print("filter_slow_steps: No slow steps detected.")
+    
     return raw_data[ ~ step_outlier_mask]
-
-
-###########################
-##### actual cleaning #####
-###########################
-
-def clean_data(raw_data):
-    drop_columns(raw_data, cleaning_config['unnecessary_columns'])
-    convert_types(raw_data, cleaning_config['type_conversions'])
-    raw_data = drop_first_loop(raw_data)
-    raw_data = filter_trial_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
-    raw_data = filter_step_outliers(raw_data, threshold=cleaning_config['filter_threshold'])
-    
-    raw_data.reset_index(inplace=True)
-    return raw_data
-
-
-if __name__ == '__main__':
-    raw_data = pd.read_excel(cleaning_config['raw_data_path'])
-    raw_data = clean_data(raw_data)
