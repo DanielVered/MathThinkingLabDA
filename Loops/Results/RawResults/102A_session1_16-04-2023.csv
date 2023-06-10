@@ -1,0 +1,1186 @@
+"success","trial_type","trial_index","time_elapsed","internal_node_id","rt","stimulus","response","expected_response","correct","uid","text1","correct_response","loop_step"
+"true","fullscreen","0","3153575","0.0-0.0","","","","","","","","",""
+"","html-keyboard-response","1","3156624","0.0-1.0","3046","Please make sure that your keyboard is in English mode. Press 'A' to continue","a","","","","","",""
+"","html-keyboard-response","2","3160519","0.0-2.0-0.0-0.0","3893","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","3","3162456","0.0-2.0-1.0","1935","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","4","3165406","0.0-2.0-2.0","2950","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 11</a><a style=""""></a></div></div>","","null","","55","a = 11","",""
+"","html-keyboard-response","5","3171367","0.0-2.0-4.0-0.0-0.0","5450","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","15","","1","","","15","0"
+"","html-keyboard-response","6","3174599","0.0-2.0-4.0-1.0-0.0","2726","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","7","3179862","0.0-2.0-4.0-2.0-0.0","4760","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","9","","1","","","9","2"
+"","html-keyboard-response","8","3181733","0.0-2.0-4.0-3.0-0.0","1370","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","3","","1","","","3","3"
+"","html-keyboard-response","9","3184477","0.0-2.0-4.0-4.0-0.0","2241","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","10","3197542","0.0-2.0-5.0-0.0-0.0","12555","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>","8","","0","","","7","0"
+"","html-keyboard-response","12","3209182","0.0-2.0-5.0-1.0-0.0","7626","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>","17","","1","","","17","1"
+"","html-keyboard-response","13","3211766","0.0-2.0-5.0-2.0-0.0","2081","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","14","3219526","0.0-2.0-6.0-0.0-0.0","7256","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","15","3222908","0.0-2.0-6.0-1.0-0.0","2872","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","16","3229934","0.0-2.0-6.0-2.0-0.0","6511","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>","3","","1","","","3","2"
+"","html-keyboard-response","17","3233988","0.0-2.0-6.0-3.0-0.0","3538","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>","2","","1","","","2","3"
+"","html-keyboard-response","18","3235142","0.0-2.0-6.0-4.0-0.0","652","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","19","3242397","0.0-2.0-7.0-0.0-0.0","6746","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","20","3248076","0.0-2.0-7.0-1.0-0.0","5169","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","21","3266005","0.0-2.0-7.0-2.0-0.0","17418","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","10","","0","","","15","2"
+"","html-keyboard-response","23","3270340","0.0-2.0-7.0-3.0-0.0","319","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","14","","1","","","14","3"
+"","html-keyboard-response","24","3271444","0.0-2.0-7.0-4.0-0.0","596","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","25","3278661","0.0-2.0-8.0-0.0-0.0","6709","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","26","3282788","0.0-2.0-8.0-1.0-0.0","3622","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","27","3288052","0.0-2.0-8.0-2.0-0.0","4752","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","5","","1","","","5","2"
+"","html-keyboard-response","28","3289630","0.0-2.0-8.0-3.0-0.0","1062","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","6","","1","","","6","3"
+"","html-keyboard-response","29","3293780","0.0-2.0-8.0-4.0-0.0","3645","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","1","","1","","","1","4"
+"","html-keyboard-response","30","3296955","0.0-2.0-8.0-5.0-0.0","2659","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","2","","1","","","2","5"
+"","html-keyboard-response","31","3299716","0.0-2.0-8.0-6.0-0.0","2250","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","32","3306914","0.0-2.0-9.0-0.0-0.0","6683","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","33","3309674","0.0-2.0-9.0-1.0-0.0","2244","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>","18","","1","","","18","1"
+"","html-keyboard-response","34","3314425","0.0-2.0-9.0-2.0-0.0","4247","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","35","3325769","0.0-2.0-10.0-0.0-0.0","10839","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","8","","0","","","6","0"
+"","html-keyboard-response","37","3331402","0.0-2.0-10.0-1.0-0.0","1619","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","38","3335242","0.0-2.0-10.0-2.0-0.0","3331","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","39","3339586","0.0-2.0-10.0-3.0-0.0","3841","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","40","3342226","0.0-2.0-10.0-4.0-0.0","2129","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","41","3348538","0.0-2.0-11.0-0.0-0.0","5807","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","12","","1","","","12","0"
+"","html-keyboard-response","42","3351242","0.0-2.0-11.0-1.0-0.0","2198","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","16","","1","","","16","1"
+"","html-keyboard-response","43","3353233","0.0-2.0-11.0-2.0-0.0","1488","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","20","","1","","","20","2"
+"","html-keyboard-response","44","3354290","0.0-2.0-11.0-3.0-0.0","545","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","45","3411399","0.0-3.0-0.0-0.0","56597","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","46","3413303","0.0-3.0-1.0","1903","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","47","3414446","0.0-3.0-2.0","1143","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 7</a><a style=""""></a></div></div>","","null","","1","a = 7","",""
+"","html-keyboard-response","48","3418717","0.0-3.0-4.0-0.0-0.0","3759","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","14","","1","","","14","0"
+"","html-keyboard-response","49","3420510","0.0-3.0-4.0-1.0-0.0","1281","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","50","3424287","0.0-3.0-4.0-2.0-0.0","3271","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","20","","1","","","20","2"
+"","html-keyboard-response","51","3426318","0.0-3.0-4.0-3.0-0.0","1522","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","16","","1","","","16","3"
+"","html-keyboard-response","52","3427367","0.0-3.0-4.0-4.0-0.0","535","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","53","3431758","0.0-3.0-5.0-0.0-0.0","3877","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","0"
+"","html-keyboard-response","54","3434687","0.0-3.0-5.0-1.0-0.0","2423","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","1"
+"","html-keyboard-response","55","3438143","0.0-3.0-5.0-2.0-0.0","2953","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","2","","1","","","2","2"
+"","html-keyboard-response","56","3439631","0.0-3.0-5.0-3.0-0.0","983","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","3"
+"","html-keyboard-response","57","3441150","0.0-3.0-5.0-4.0-0.0","1005","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","1","","1","","","1","4"
+"","html-keyboard-response","58","3442231","0.0-3.0-5.0-5.0-0.0","567","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","2","","1","","","2","5"
+"","html-keyboard-response","59","3443319","0.0-3.0-5.0-6.0-0.0","573","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","60","3452775","0.0-3.0-6.0-0.0-0.0","8945","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>","5","","1","","","5","0"
+"","html-keyboard-response","61","3459574","0.0-3.0-6.0-1.0-0.0","6293","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>","13","","1","","","13","1"
+"","html-keyboard-response","62","3467007","0.0-3.0-6.0-2.0-0.0","6928","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","63","3472910","0.0-3.0-7.0-0.0-0.0","5396","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","64","3477926","0.0-3.0-7.0-1.0-0.0","4512","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","7","","1","","","7","1"
+"","html-keyboard-response","65","3497334","0.0-3.0-7.0-2.0-0.0","18905","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","6","","1","","","6","2"
+"","html-keyboard-response","66","3499694","0.0-3.0-7.0-3.0-0.0","1846","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","67","3506846","0.0-3.0-8.0-0.0-0.0","6649","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","68","3514838","0.0-3.0-8.0-1.0-0.0","7476","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","4","","1","","","4","1"
+"","html-keyboard-response","69","3518246","0.0-3.0-8.0-2.0-0.0","2901","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","6","","1","","","6","2"
+"","html-keyboard-response","70","3520038","0.0-3.0-8.0-3.0-0.0","1287","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","3","","1","","","3","3"
+"","html-keyboard-response","71","3520870","0.0-3.0-8.0-4.0-0.0","324","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","72","3526862","0.0-3.0-9.0-0.0-0.0","5486","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>","4","","0","","","6","0"
+"","html-keyboard-response","74","3532471","0.0-3.0-9.0-1.0-0.0","1588","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","75","3533830","0.0-3.0-9.0-2.0-0.0","851","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","76","3540702","0.0-3.0-10.0-0.0-0.0","6355","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","18","","1","","","18","0"
+"","html-keyboard-response","77","3546806","0.0-3.0-10.0-1.0-0.0","5600","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","14","","1","","","14","1"
+"","html-keyboard-response","78","3550077","0.0-3.0-10.0-2.0-0.0","2766","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","20","","1","","","20","2"
+"","html-keyboard-response","79","3551830","0.0-3.0-10.0-3.0-0.0","1245","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","16","","1","","","16","3"
+"","html-keyboard-response","80","3552638","0.0-3.0-10.0-4.0-0.0","295","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","81","3558008","0.0-3.0-11.0-0.0-0.0","4862","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","13","","1","","","13","0"
+"","html-keyboard-response","82","3560950","0.0-3.0-11.0-1.0-0.0","2440","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","83","3563631","0.0-3.0-11.0-2.0-0.0","2170","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","7","","1","","","7","2"
+"","html-keyboard-response","84","3565710","0.0-3.0-11.0-3.0-0.0","1567","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","4","","1","","","4","3"
+"","html-keyboard-response","85","3567342","0.0-3.0-11.0-4.0-0.0","1116","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","86","3632677","0.0-4.0-0.0-0.0","64819","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","87","3634485","0.0-4.0-1.0","1806","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","88","3635676","0.0-4.0-2.0","1190","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 16</a><a style=""""></a></div></div>","","null","","82","a = 16","",""
+"","html-keyboard-response","89","3638420","0.0-4.0-4.0-0.0-0.0","2237","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a /= 2</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","90","3643452","0.0-4.0-4.0-1.0-0.0","4527","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a /= 2</a><a style=""""></a></div></div>","4","","1","","","4","1"
+"","html-keyboard-response","91","3648236","0.0-4.0-4.0-2.0-0.0","4281","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","92","3653733","0.0-4.0-5.0-0.0-0.0","4991","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","93","3659116","0.0-4.0-5.0-1.0-0.0","4877","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","9","","1","","","9","1"
+"","html-keyboard-response","94","3668197","0.0-4.0-5.0-2.0-0.0","8574","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","95","3671892","0.0-4.0-5.0-3.0-0.0","3185","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","96","3677205","0.0-4.0-6.0-0.0-0.0","4801","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","19","","1","","","19","0"
+"","html-keyboard-response","97","3679980","0.0-4.0-6.0-1.0-0.0","2259","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","13","","1","","","13","1"
+"","html-keyboard-response","98","3683076","0.0-4.0-6.0-2.0-0.0","2587","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","99","3686932","0.0-4.0-6.0-3.0-0.0","3344","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","12","","1","","","12","3"
+"","html-keyboard-response","100","3688164","0.0-4.0-6.0-4.0-0.0","725","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","101","3696002","0.0-4.0-7.0-0.0-0.0","7339","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","102","3700546","0.0-4.0-7.0-1.0-0.0","4027","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","103","3702865","0.0-4.0-7.0-2.0-0.0","1815","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","5","","1","","","5","2"
+"","html-keyboard-response","104","3705026","0.0-4.0-7.0-3.0-0.0","1643","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","105","3711746","0.0-4.0-8.0-0.0-0.0","6210","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","15","","1","","","15","0"
+"","html-keyboard-response","106","3714993","0.0-4.0-8.0-1.0-0.0","2739","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","4","","1","","","4","1"
+"","html-keyboard-response","107","3719569","0.0-4.0-8.0-2.0-0.0","4067","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","12","","1","","","12","2"
+"","html-keyboard-response","108","3721953","0.0-4.0-8.0-3.0-0.0","1879","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","1","","1","","","1","3"
+"","html-keyboard-response","109","3722985","0.0-4.0-8.0-4.0-0.0","518","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","110","3726089","0.0-4.0-9.0-0.0-0.0","2589","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","111","3728249","0.0-4.0-9.0-1.0-0.0","1658","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","3","","1","","","3","1"
+"","html-keyboard-response","112","3733858","0.0-4.0-9.0-2.0-0.0","5105","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","113","3737497","0.0-4.0-9.0-3.0-0.0","3129","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","9","","1","","","9","3"
+"","html-keyboard-response","114","3738353","0.0-4.0-9.0-4.0-0.0","349","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","115","3741321","0.0-4.0-10.0-0.0-0.0","2461","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 2</a><a style=""""></a></div></div>","7","","1","","","7","0"
+"","html-keyboard-response","116","3742792","0.0-4.0-10.0-1.0-0.0","961","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 2</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","117","3743633","0.0-4.0-10.0-2.0-0.0","331","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","118","3749857","0.0-4.0-11.0-0.0-0.0","5709","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","14","","1","","","14","0"
+"","html-keyboard-response","119","3751497","0.0-4.0-11.0-1.0-0.0","1130","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","7","","1","","","7","1"
+"","html-keyboard-response","120","3755833","0.0-4.0-11.0-2.0-0.0","3833","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","16","","1","","","16","2"
+"","html-keyboard-response","121","3758669","0.0-4.0-11.0-3.0-0.0","2332","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","122","3761189","0.0-4.0-11.0-4.0-0.0","2017","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","123","3813709","0.0-5.0-0.0-0.0","52006","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","124","3814893","0.0-5.0-1.0","1183","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","125","3816124","0.0-5.0-2.0","1231","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 9</a><a style=""""></a></div></div>","","null","","91","a = 9","",""
+"","html-keyboard-response","126","3819509","0.0-5.0-4.0-0.0-0.0","2881","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 3</a><a style=""""></a></div></div>","3","","1","","","3","0"
+"","html-keyboard-response","127","3823253","0.0-5.0-4.0-1.0-0.0","3235","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 3</a><a style=""""></a></div></div>","1","","1","","","1","1"
+"","html-keyboard-response","128","3824581","0.0-5.0-4.0-2.0-0.0","812","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","129","3827492","0.0-5.0-5.0-0.0-0.0","2406","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","7","","1","","","7","0"
+"","html-keyboard-response","130","3830628","0.0-5.0-5.0-1.0-0.0","2625","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","13","","1","","","13","1"
+"","html-keyboard-response","131","3832596","0.0-5.0-5.0-2.0-0.0","1462","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","19","","1","","","19","2"
+"","html-keyboard-response","132","3833581","0.0-5.0-5.0-3.0-0.0","478","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","133","3836109","0.0-5.0-6.0-0.0-0.0","2024","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","20","","1","","","20","0"
+"","html-keyboard-response","134","3838277","0.0-5.0-6.0-1.0-0.0","1660","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","135","3841293","0.0-5.0-6.0-2.0-0.0","2507","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","13","","1","","","13","2"
+"","html-keyboard-response","136","3846587","0.0-5.0-6.0-3.0-0.0","4789","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","5","","1","","","5","3"
+"","html-keyboard-response","137","3848028","0.0-5.0-6.0-4.0-0.0","926","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","138","3853364","0.0-5.0-7.0-0.0-0.0","4829","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","15","","1","","","15","0"
+"","html-keyboard-response","139","3856565","0.0-5.0-7.0-1.0-0.0","2697","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","4","","0","","","6","1"
+"","html-keyboard-response","141","3863773","0.0-5.0-7.0-2.0-0.0","3188","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","142","3865588","0.0-5.0-7.0-3.0-0.0","1304","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","9","","1","","","9","3"
+"","html-keyboard-response","143","3869293","0.0-5.0-7.0-4.0-0.0","3191","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","144","3873636","0.0-5.0-8.0-0.0-0.0","3835","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>","5","","1","","","5","0"
+"","html-keyboard-response","145","3876412","0.0-5.0-8.0-1.0-0.0","2261","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>","3","","1","","","3","1"
+"","html-keyboard-response","146","3878476","0.0-5.0-8.0-2.0-0.0","1560","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>","2","","1","","","2","2"
+"","html-keyboard-response","147","3879604","0.0-5.0-8.0-3.0-0.0","619","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","148","3886868","0.0-5.0-9.0-0.0-0.0","6751","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","1","","1","","","1","0"
+"","html-keyboard-response","149","3888412","0.0-5.0-9.0-1.0-0.0","1028","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","150","3890507","0.0-5.0-9.0-2.0-0.0","1591","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","151","3893180","0.0-5.0-9.0-3.0-0.0","2159","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","20","","1","","","20","3"
+"","html-keyboard-response","152","3894252","0.0-5.0-9.0-4.0-0.0","555","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","153","3896572","0.0-5.0-10.0-0.0-0.0","1806","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>","17","","1","","","17","0"
+"","html-keyboard-response","154","3898188","0.0-5.0-10.0-1.0-0.0","1108","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>","14","","1","","","14","1"
+"","html-keyboard-response","155","3899267","0.0-5.0-10.0-2.0-0.0","570","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>","11","","1","","","11","2"
+"","html-keyboard-response","156","3900900","0.0-5.0-10.0-3.0-0.0","1115","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","157","3904715","0.0-5.0-11.0-0.0-0.0","3299","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","158","3908108","0.0-5.0-11.0-1.0-0.0","2876","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>","1","","1","","","1","1"
+"","html-keyboard-response","159","3909516","0.0-5.0-11.0-2.0-0.0","894","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","160","3957096","0.0-6.0-0.0-0.0","47075","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","161","3958135","0.0-6.0-1.0","1037","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","162","3959031","0.0-6.0-2.0","896","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 18</a><a style=""""></a></div></div>","","null","","19","a = 18","",""
+"","html-keyboard-response","163","3962767","0.0-6.0-4.0-0.0-0.0","3224","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","164","3965471","0.0-6.0-4.0-1.0-0.0","2202","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","165","3967872","0.0-6.0-4.0-2.0-0.0","1887","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","166","3969991","0.0-6.0-4.0-3.0-0.0","1606","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","167","3972134","0.0-6.0-4.0-4.0-0.0","1632","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","168","3976128","0.0-6.0-5.0-0.0-0.0","3478","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","4","","1","","","4","0"
+"","html-keyboard-response","169","3978119","0.0-6.0-5.0-1.0-0.0","1485","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","2","","1","","","2","1"
+"","html-keyboard-response","170","3980558","0.0-6.0-5.0-2.0-0.0","1936","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","1","","1","","","1","2"
+"","html-keyboard-response","171","3981815","0.0-6.0-5.0-3.0-0.0","750","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","172","3984520","0.0-6.0-6.0-0.0-0.0","2187","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>","3","","1","","","3","0"
+"","html-keyboard-response","173","3985991","0.0-6.0-6.0-1.0-0.0","956","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","174","3987359","0.0-6.0-6.0-2.0-0.0","860","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>","7","","1","","","7","2"
+"","html-keyboard-response","175","3988231","0.0-6.0-6.0-3.0-0.0","364","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>","9","","1","","","9","3"
+"","html-keyboard-response","176","3989247","0.0-6.0-6.0-4.0-0.0","514","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","177","3992558","0.0-6.0-7.0-0.0-0.0","2807","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","18","","1","","","18","0"
+"","html-keyboard-response","178","3994935","0.0-6.0-7.0-1.0-0.0","1874","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","179","3998728","0.0-6.0-7.0-2.0-0.0","3276","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","15","","1","","","15","2"
+"","html-keyboard-response","180","4000479","0.0-6.0-7.0-3.0-0.0","1245","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","5","","1","","","5","3"
+"","html-keyboard-response","181","4003263","0.0-6.0-7.0-4.0-0.0","2281","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","182","4007599","0.0-6.0-8.0-0.0-0.0","3834","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","7","","1","","","7","0"
+"","html-keyboard-response","183","4013935","0.0-6.0-8.0-1.0-0.0","5821","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","184","4018753","0.0-6.0-8.0-2.0-0.0","4300","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","15","","1","","","15","2"
+"","html-keyboard-response","185","4019970","0.0-6.0-8.0-3.0-0.0","709","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","186","4024826","0.0-6.0-9.0-0.0-0.0","4348","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","187","4029065","0.0-6.0-9.0-1.0-0.0","3727","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","188","4029905","0.0-6.0-9.0-2.0-0.0","329","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","189","4033897","0.0-6.0-10.0-0.0-0.0","3486","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","12","","1","","","12","0"
+"","html-keyboard-response","190","4036401","0.0-6.0-10.0-1.0-0.0","1990","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","7","","1","","","7","1"
+"","html-keyboard-response","191","4039121","0.0-6.0-10.0-2.0-0.0","2214","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","192","4041609","0.0-6.0-10.0-3.0-0.0","1970","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","11","","0","","","9","3"
+"","html-keyboard-response","194","4047642","0.0-6.0-10.0-4.0-0.0","2015","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","18","","1","","","18","4"
+"","html-keyboard-response","195","4050370","0.0-6.0-10.0-5.0-0.0","2210","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","13","","1","","","13","5"
+"","html-keyboard-response","196","4053393","0.0-6.0-10.0-6.0-0.0","2518","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","197","4057361","0.0-6.0-11.0-0.0-0.0","3456","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","16","","0","","","17","0"
+"","html-keyboard-response","199","4061778","0.0-6.0-11.0-1.0-0.0","399","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","200","4064457","0.0-6.0-11.0-2.0-0.0","2164","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","201","4066337","0.0-6.0-11.0-3.0-0.0","1364","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","7","","1","","","7","3"
+"","html-keyboard-response","202","4071026","0.0-6.0-11.0-4.0-0.0","4183","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","11","","1","","","11","4"
+"","html-keyboard-response","203","4079843","0.0-6.0-11.0-5.0-0.0","8310","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","4","","1","","","4","5"
+"","html-keyboard-response","204","4081100","0.0-6.0-11.0-6.0-0.0","747","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","205","4144570","0.0-7.0-0.0-0.0","62959","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","206","4145619","0.0-7.0-1.0","1049","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","207","4146291","0.0-7.0-2.0","671","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 8</a><a style=""""></a></div></div>","","null","","37","a = 8","",""
+"","html-keyboard-response","208","4149051","0.0-7.0-4.0-0.0-0.0","2252","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","209","4151178","0.0-7.0-4.0-1.0-0.0","1623","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","210","4153802","0.0-7.0-4.0-2.0-0.0","2109","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","10","","1","","","10","2"
+"","html-keyboard-response","211","4155115","0.0-7.0-4.0-3.0-0.0","808","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","16","","1","","","16","3"
+"","html-keyboard-response","212","4158363","0.0-7.0-4.0-4.0-0.0","2738","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","14","","1","","","14","4"
+"","html-keyboard-response","213","4159267","0.0-7.0-4.0-5.0-0.0","398","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","20","","1","","","20","5"
+"","html-keyboard-response","214","4160506","0.0-7.0-4.0-6.0-0.0","732","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","215","4163771","0.0-7.0-5.0-0.0-0.0","2748","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>","10","","1","","","10","0"
+"","html-keyboard-response","216","4165155","0.0-7.0-5.0-1.0-0.0","874","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>","4","","0","","","5","1"
+"","html-keyboard-response","218","4170163","0.0-7.0-5.0-2.0-0.0","995","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","219","4177035","0.0-7.0-6.0-0.0-0.0","6362","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","220","4180467","0.0-7.0-6.0-1.0-0.0","2927","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","221","4188770","0.0-7.0-6.0-2.0-0.0","7796","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","222","4189778","0.0-7.0-6.0-3.0-0.0","505","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","223","4193450","0.0-7.0-7.0-0.0-0.0","3159","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","10","","1","","","10","0"
+"","html-keyboard-response","224","4196491","0.0-7.0-7.0-1.0-0.0","2534","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","225","4201082","0.0-7.0-7.0-2.0-0.0","4076","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","226","4202764","0.0-7.0-7.0-3.0-0.0","1173","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","2","","0","","","3","3"
+"","html-keyboard-response","228","4207083","0.0-7.0-7.0-4.0-0.0","308","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","229","4211411","0.0-7.0-8.0-0.0-0.0","3820","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","10","","1","","","10","0"
+"","html-keyboard-response","230","4215611","0.0-7.0-8.0-1.0-0.0","3688","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","231","4221587","0.0-7.0-8.0-2.0-0.0","5467","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","12","","1","","","12","2"
+"","html-keyboard-response","232","4223698","0.0-7.0-8.0-3.0-0.0","1609","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","6","","1","","","6","3"
+"","html-keyboard-response","233","4224708","0.0-7.0-8.0-4.0-0.0","503","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","234","4227579","0.0-7.0-9.0-0.0-0.0","2354","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","235","4228731","0.0-7.0-9.0-1.0-0.0","645","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","236","4231266","0.0-7.0-9.0-2.0-0.0","2027","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","15","","1","","","15","2"
+"","html-keyboard-response","237","4233874","0.0-7.0-9.0-3.0-0.0","2102","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","18","","1","","","18","3"
+"","html-keyboard-response","238","4234723","0.0-7.0-9.0-4.0-0.0","335","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","239","4237667","0.0-7.0-10.0-0.0-0.0","2429","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","240","4239427","0.0-7.0-10.0-1.0-0.0","1257","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","241","4244452","0.0-7.0-10.0-2.0-0.0","4517","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","242","4247474","0.0-7.0-10.0-3.0-0.0","2521","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","243","4248827","0.0-7.0-10.0-4.0-0.0","839","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","244","4254979","0.0-7.0-11.0-0.0-0.0","5641","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","16","","1","","","16","0"
+"","html-keyboard-response","245","4262754","0.0-7.0-11.0-1.0-0.0","7265","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","7","","1","","","7","1"
+"","html-keyboard-response","246","4266131","0.0-7.0-11.0-2.0-0.0","2875","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","247","4269071","0.0-7.0-11.0-3.0-0.0","2431","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","5","","1","","","5","3"
+"","html-keyboard-response","248","4271743","0.0-7.0-11.0-4.0-0.0","2159","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","10","","1","","","10","4"
+"","html-keyboard-response","249","4273350","0.0-7.0-11.0-5.0-0.0","1102","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","1","","1","","","1","5"
+"","html-keyboard-response","250","4274533","0.0-7.0-11.0-6.0-0.0","666","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","251","4317761","0.0-8.0-0.0-0.0","42709","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","252","4318734","0.0-8.0-1.0","972","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","253","4319638","0.0-8.0-2.0","904","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 9</a><a style=""""></a></div></div>","","null","","100","a = 9","",""
+"","html-keyboard-response","254","4322062","0.0-8.0-4.0-0.0-0.0","1919","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3</a><a style=""""></a></div></div>","3","","1","","","3","0"
+"","html-keyboard-response","255","4324213","0.0-8.0-4.0-1.0-0.0","1648","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3</a><a style=""""></a></div></div>","1","","1","","","1","1"
+"","html-keyboard-response","256","4325366","0.0-8.0-4.0-2.0-0.0","651","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","257","4329106","0.0-8.0-5.0-0.0-0.0","3220","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","7","","1","","","7","0"
+"","html-keyboard-response","258","4331289","0.0-8.0-5.0-1.0-0.0","1672","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","13","","1","","","13","1"
+"","html-keyboard-response","259","4332929","0.0-8.0-5.0-2.0-0.0","1130","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","20","","0","","","19","2"
+"","html-keyboard-response","261","4337601","0.0-8.0-5.0-3.0-0.0","663","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","262","4340449","0.0-8.0-6.0-0.0-0.0","2331","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","20","","1","","","20","0"
+"","html-keyboard-response","263","4342153","0.0-8.0-6.0-1.0-0.0","1203","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","264","4345873","0.0-8.0-6.0-2.0-0.0","3204","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","13","","1","","","13","2"
+"","html-keyboard-response","265","4351329","0.0-8.0-6.0-3.0-0.0","4952","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","6","","0","","","5","3"
+"","html-keyboard-response","267","4355865","0.0-8.0-6.0-4.0-0.0","514","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","268","4359569","0.0-8.0-7.0-0.0-0.0","3189","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","15","","1","","","15","0"
+"","html-keyboard-response","269","4362658","0.0-8.0-7.0-1.0-0.0","2572","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","270","4367304","0.0-8.0-7.0-2.0-0.0","4139","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","271","4370289","0.0-8.0-7.0-3.0-0.0","2473","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","9","","1","","","9","3"
+"","html-keyboard-response","272","4373385","0.0-8.0-7.0-4.0-0.0","2586","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","273","4376561","0.0-8.0-8.0-0.0-0.0","2660","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>","5","","1","","","5","0"
+"","html-keyboard-response","274","4381097","0.0-8.0-8.0-1.0-0.0","4030","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>","3","","1","","","3","1"
+"","html-keyboard-response","275","4383113","0.0-8.0-8.0-2.0-0.0","1512","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>","2","","1","","","2","2"
+"","html-keyboard-response","276","4384225","0.0-8.0-8.0-3.0-0.0","608","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","277","4389157","0.0-8.0-9.0-0.0-0.0","4420","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","1","","1","","","1","0"
+"","html-keyboard-response","278","4391213","0.0-8.0-9.0-1.0-0.0","1550","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","279","4394885","0.0-8.0-9.0-2.0-0.0","3155","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","280","4397341","0.0-8.0-9.0-3.0-0.0","1947","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","20","","1","","","20","3"
+"","html-keyboard-response","281","4399740","0.0-8.0-9.0-4.0-0.0","1894","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","282","4404373","0.0-8.0-10.0-0.0-0.0","4130","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>","17","","1","","","17","0"
+"","html-keyboard-response","283","4406469","0.0-8.0-10.0-1.0-0.0","1591","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>","14","","1","","","14","1"
+"","html-keyboard-response","284","4408413","0.0-8.0-10.0-2.0-0.0","1434","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>","11","","1","","","11","2"
+"","html-keyboard-response","285","4409789","0.0-8.0-10.0-3.0-0.0","859","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","286","4414957","0.0-8.0-11.0-0.0-0.0","4662","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","287","4418485","0.0-8.0-11.0-1.0-0.0","3024","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>","1","","1","","","1","1"
+"","html-keyboard-response","288","4419756","0.0-8.0-11.0-2.0-0.0","762","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","289","4479502","0.0-9.0-0.0-0.0","59229","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","290","4480469","0.0-9.0-1.0","966","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","291","4481583","0.0-9.0-2.0","1113","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 18</a><a style=""""></a></div></div>","","null","","28","a = 18","",""
+"","html-keyboard-response","292","4485358","0.0-9.0-4.0-0.0-0.0","3270","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","293","4488470","0.0-9.0-4.0-1.0-0.0","2608","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","294","4490598","0.0-9.0-4.0-2.0-0.0","1621","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","295","4492054","0.0-9.0-4.0-3.0-0.0","943","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","296","4493112","0.0-9.0-4.0-4.0-0.0","550","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","297","4497142","0.0-9.0-5.0-0.0-0.0","3517","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","4","","1","","","4","0"
+"","html-keyboard-response","298","4500150","0.0-9.0-5.0-1.0-0.0","2505","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","2","","1","","","2","1"
+"","html-keyboard-response","299","4501927","0.0-9.0-5.0-2.0-0.0","1268","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","1","","1","","","1","2"
+"","html-keyboard-response","300","4503334","0.0-9.0-5.0-3.0-0.0","892","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","301","4506094","0.0-9.0-6.0-0.0-0.0","2250","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>","3","","1","","","3","0"
+"","html-keyboard-response","302","4508270","0.0-9.0-6.0-1.0-0.0","1675","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","303","4510654","0.0-9.0-6.0-2.0-0.0","1877","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>","7","","1","","","7","2"
+"","html-keyboard-response","304","4514030","0.0-9.0-6.0-3.0-0.0","2871","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>","9","","1","","","9","3"
+"","html-keyboard-response","305","4515102","0.0-9.0-6.0-4.0-0.0","556","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","306","4518942","0.0-9.0-7.0-0.0-0.0","3332","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","18","","1","","","18","0"
+"","html-keyboard-response","307","4522301","0.0-9.0-7.0-1.0-0.0","2842","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","308","4526134","0.0-9.0-7.0-2.0-0.0","3319","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","15","","1","","","15","2"
+"","html-keyboard-response","309","4527717","0.0-9.0-7.0-3.0-0.0","1074","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","5","","1","","","5","3"
+"","html-keyboard-response","310","4529502","0.0-9.0-7.0-4.0-0.0","1276","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","311","4534430","0.0-9.0-8.0-0.0-0.0","4413","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","7","","1","","","7","0"
+"","html-keyboard-response","312","4542642","0.0-9.0-8.0-1.0-0.0","7695","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","313","4547482","0.0-9.0-8.0-2.0-0.0","4336","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","15","","1","","","15","2"
+"","html-keyboard-response","314","4549794","0.0-9.0-8.0-3.0-0.0","1811","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","315","4556466","0.0-9.0-9.0-0.0-0.0","6168","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","316","4561665","0.0-9.0-9.0-1.0-0.0","4689","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","317","4562753","0.0-9.0-9.0-2.0-0.0","574","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","318","4565857","0.0-9.0-10.0-0.0-0.0","2593","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","12","","1","","","12","0"
+"","html-keyboard-response","319","4568786","0.0-9.0-10.0-1.0-0.0","2426","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","7","","1","","","7","1"
+"","html-keyboard-response","320","4571794","0.0-9.0-10.0-2.0-0.0","2500","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","321","4574450","0.0-9.0-10.0-3.0-0.0","2141","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","11","","0","","","9","3"
+"","html-keyboard-response","323","4579802","0.0-9.0-10.0-4.0-0.0","1337","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","18","","1","","","18","4"
+"","html-keyboard-response","324","4583329","0.0-9.0-10.0-5.0-0.0","3018","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","13","","1","","","13","5"
+"","html-keyboard-response","325","4584745","0.0-9.0-10.0-6.0-0.0","915","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","326","4594722","0.0-9.0-11.0-0.0-0.0","9460","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","16","","0","","","17","0"
+"","html-keyboard-response","328","4599185","0.0-9.0-11.0-1.0-0.0","454","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","329","4602842","0.0-9.0-11.0-2.0-0.0","3148","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","330","4604810","0.0-9.0-11.0-3.0-0.0","1464","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","7","","1","","","7","3"
+"","html-keyboard-response","331","4608818","0.0-9.0-11.0-4.0-0.0","3505","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","11","","1","","","11","4"
+"","html-keyboard-response","332","4614394","0.0-9.0-11.0-5.0-0.0","5067","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","6","","0","","","4","5"
+"","html-keyboard-response","334","4618706","0.0-9.0-11.0-6.0-0.0","308","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","335","4672308","0.0-10.0-0.0-0.0","53103","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","336","4673507","0.0-10.0-1.0","1197","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","337","4674660","0.0-10.0-2.0","1153","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 7</a><a style=""""></a></div></div>","","null","","10","a = 7","",""
+"","html-keyboard-response","338","4678924","0.0-10.0-4.0-0.0-0.0","3761","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","14","","1","","","14","0"
+"","html-keyboard-response","339","4680427","0.0-10.0-4.0-1.0-0.0","991","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","340","4683844","0.0-10.0-4.0-2.0-0.0","2908","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","20","","1","","","20","2"
+"","html-keyboard-response","341","4685163","0.0-10.0-4.0-3.0-0.0","805","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","16","","1","","","16","3"
+"","html-keyboard-response","342","4687019","0.0-10.0-4.0-4.0-0.0","1350","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","343","4689540","0.0-10.0-5.0-0.0-0.0","2018","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","0"
+"","html-keyboard-response","344","4691284","0.0-10.0-5.0-1.0-0.0","1242","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","1"
+"","html-keyboard-response","345","4694292","0.0-10.0-5.0-2.0-0.0","2507","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","2","","1","","","2","2"
+"","html-keyboard-response","346","4696100","0.0-10.0-5.0-3.0-0.0","1297","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","3"
+"","html-keyboard-response","347","4697915","0.0-10.0-5.0-4.0-0.0","1300","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","1","","1","","","1","4"
+"","html-keyboard-response","348","4700204","0.0-10.0-5.0-5.0-0.0","1784","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","2","","1","","","2","5"
+"","html-keyboard-response","349","4701540","0.0-10.0-5.0-6.0-0.0","822","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","350","4707668","0.0-10.0-6.0-0.0-0.0","5616","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>","5","","1","","","5","0"
+"","html-keyboard-response","351","4714211","0.0-10.0-6.0-1.0-0.0","6029","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>","13","","1","","","13","1"
+"","html-keyboard-response","352","4716067","0.0-10.0-6.0-2.0-0.0","1350","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","353","4721267","0.0-10.0-7.0-0.0-0.0","4685","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","354","4729796","0.0-10.0-7.0-1.0-0.0","8014","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","7","","1","","","7","1"
+"","html-keyboard-response","355","4734201","0.0-10.0-7.0-2.0-0.0","3894","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","6","","1","","","6","2"
+"","html-keyboard-response","356","4735520","0.0-10.0-7.0-3.0-0.0","814","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","357","4738576","0.0-10.0-8.0-0.0-0.0","2554","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","358","4741400","0.0-10.0-8.0-1.0-0.0","2309","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","4","","1","","","4","1"
+"","html-keyboard-response","359","4746559","0.0-10.0-8.0-2.0-0.0","4655","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","6","","1","","","6","2"
+"","html-keyboard-response","360","4747657","0.0-10.0-8.0-3.0-0.0","584","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","3","","1","","","3","3"
+"","html-keyboard-response","361","4748696","0.0-10.0-8.0-4.0-0.0","526","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","362","4752960","0.0-10.0-9.0-0.0-0.0","3754","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","363","4757801","0.0-10.0-9.0-1.0-0.0","4330","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","364","4759088","0.0-10.0-9.0-2.0-0.0","782","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","365","4767423","0.0-10.0-10.0-0.0-0.0","7819","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","18","","1","","","18","0"
+"","html-keyboard-response","366","4769528","0.0-10.0-10.0-1.0-0.0","1591","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","14","","1","","","14","1"
+"","html-keyboard-response","367","4772008","0.0-10.0-10.0-2.0-0.0","1969","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","20","","1","","","20","2"
+"","html-keyboard-response","368","4773727","0.0-10.0-10.0-3.0-0.0","1214","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","16","","1","","","16","3"
+"","html-keyboard-response","369","4774888","0.0-10.0-10.0-4.0-0.0","653","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","370","4779625","0.0-10.0-11.0-0.0-0.0","4233","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","13","","1","","","13","0"
+"","html-keyboard-response","371","4781089","0.0-10.0-11.0-1.0-0.0","951","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","372","4782088","0.0-10.0-11.0-2.0-0.0","485","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","7","","1","","","7","2"
+"","html-keyboard-response","373","4783280","0.0-10.0-11.0-3.0-0.0","676","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","4","","1","","","4","3"
+"","html-keyboard-response","374","4785272","0.0-10.0-11.0-4.0-0.0","1486","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","375","4837321","0.0-11.0-0.0-0.0","51534","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","376","4838079","0.0-11.0-1.0","757","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","377","4838759","0.0-11.0-2.0","679","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 16</a><a style=""""></a></div></div>","","null","","73","a = 16","",""
+"","html-keyboard-response","378","4841119","0.0-11.0-4.0-0.0-0.0","1858","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 2</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","379","4846815","0.0-11.0-4.0-1.0-0.0","5180","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 2</a><a style=""""></a></div></div>","4","","1","","","4","1"
+"","html-keyboard-response","380","4848320","0.0-11.0-4.0-2.0-0.0","1000","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 2</a><a style=""""></a></div></div>","2","","0","","","backspace",""
+"","html-keyboard-response","381","4852336","0.0-11.0-4.0-2.0-1.0-0.0","null","<div><p style=""font-size:25px; color:green;"">end of loop<br>>>>>>></p>
+						<div>Hit the ""end loop"" key to continue</div></div>","null","","","","","",""
+"","html-keyboard-response","382","4853543","0.0-11.0-4.0-2.1-0.1","1205","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","383","4861088","0.0-11.0-5.0-0.0-0.0","7028","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","3","","0","","","6","0"
+"","html-keyboard-response","385","4868647","0.0-11.0-5.0-1.0-0.0","3530","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","9","","1","","","9","1"
+"","html-keyboard-response","386","4876447","0.0-11.0-5.0-2.0-0.0","7296","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","387","4878640","0.0-11.0-5.0-3.0-0.0","1689","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","388","4884247","0.0-11.0-6.0-0.0-0.0","5096","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","19","","1","","","19","0"
+"","html-keyboard-response","389","4888200","0.0-11.0-6.0-1.0-0.0","3449","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","13","","1","","","13","1"
+"","html-keyboard-response","390","4891440","0.0-11.0-6.0-2.0-0.0","2722","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","391","4893687","0.0-11.0-6.0-3.0-0.0","1744","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","12","","1","","","12","3"
+"","html-keyboard-response","392","4896239","0.0-11.0-6.0-4.0-0.0","2038","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","393","4902780","0.0-11.0-7.0-0.0-0.0","6031","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","394","4908637","0.0-11.0-7.0-1.0-0.0","5353","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","395","4911117","0.0-11.0-7.0-2.0-0.0","1968","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","5","","1","","","5","2"
+"","html-keyboard-response","396","4913325","0.0-11.0-7.0-3.0-0.0","1693","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","397","4916165","0.0-11.0-8.0-0.0-0.0","2334","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","15","","1","","","15","0"
+"","html-keyboard-response","398","4922509","0.0-11.0-8.0-1.0-0.0","5828","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","4","","1","","","4","1"
+"","html-keyboard-response","399","4926508","0.0-11.0-8.0-2.0-0.0","3496","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","12","","1","","","12","2"
+"","html-keyboard-response","400","4928932","0.0-11.0-8.0-3.0-0.0","1918","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","1","","1","","","1","3"
+"","html-keyboard-response","401","4930260","0.0-11.0-8.0-4.0-0.0","812","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","402","4933660","0.0-11.0-9.0-0.0-0.0","2883","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","403","4935069","0.0-11.0-9.0-1.0-0.0","900","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","3","","1","","","3","1"
+"","html-keyboard-response","404","4938821","0.0-11.0-9.0-2.0-0.0","3238","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","405","4940901","0.0-11.0-9.0-3.0-0.0","1566","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","9","","1","","","9","3"
+"","html-keyboard-response","406","4942396","0.0-11.0-9.0-4.0-0.0","983","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","407","4945461","0.0-11.0-10.0-0.0-0.0","2548","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 7:
+   a -= 2</a><a style=""""></a></div></div>","7","","1","","","7","0"
+"","html-keyboard-response","408","4946996","0.0-11.0-10.0-1.0-0.0","1034","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 7:
+   a -= 2</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","409","4948037","0.0-11.0-10.0-2.0-0.0","524","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 7:
+   a -= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","410","4951541","0.0-11.0-11.0-0.0-0.0","2995","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","14","","1","","","14","0"
+"","html-keyboard-response","411","4953628","0.0-11.0-11.0-1.0-0.0","1584","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","7","","1","","","7","1"
+"","html-keyboard-response","412","4957123","0.0-11.0-11.0-2.0-0.0","2978","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","16","","1","","","16","2"
+"","html-keyboard-response","413","4959211","0.0-11.0-11.0-3.0-0.0","1581","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","414","4961158","0.0-11.0-11.0-4.0-0.0","1431","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","415","5018133","0.0-12.0-0.0-0.0","56468","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","416","5019195","0.0-12.0-1.0","1062","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","417","5020108","0.0-12.0-2.0","912","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 8</a><a style=""""></a></div></div>","","null","","46","a = 8","",""
+"","html-keyboard-response","418","5022916","0.0-12.0-4.0-0.0-0.0","2297","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","419","5024500","0.0-12.0-4.0-1.0-0.0","1073","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","420","5028396","0.0-12.0-4.0-2.0-0.0","3386","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","10","","1","","","10","2"
+"","html-keyboard-response","421","5029924","0.0-12.0-4.0-3.0-0.0","1014","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","16","","1","","","16","3"
+"","html-keyboard-response","422","5032588","0.0-12.0-4.0-4.0-0.0","2147","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","14","","1","","","14","4"
+"","html-keyboard-response","423","5035436","0.0-12.0-4.0-5.0-0.0","2344","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","20","","1","","","20","5"
+"","html-keyboard-response","424","5036844","0.0-12.0-4.0-6.0-0.0","900","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","425","5040196","0.0-12.0-5.0-0.0-0.0","2836","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>","10","","1","","","10","0"
+"","html-keyboard-response","426","5042828","0.0-12.0-5.0-1.0-0.0","2127","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","427","5043956","0.0-12.0-5.0-2.0-0.0","614","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","428","5049883","0.0-12.0-6.0-0.0-0.0","5423","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","8","","1","","","8","0"
+"","html-keyboard-response","429","5053604","0.0-12.0-6.0-1.0-0.0","3210","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","430","5057611","0.0-12.0-6.0-2.0-0.0","3503","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","18","","1","","","18","2"
+"","html-keyboard-response","431","5058684","0.0-12.0-6.0-3.0-0.0","564","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","432","5065052","0.0-12.0-7.0-0.0-0.0","5859","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","11","","0","","","10","0"
+"","html-keyboard-response","434","5069986","0.0-12.0-7.0-1.0-0.0","924","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","6","","1","","","6","1"
+"","html-keyboard-response","435","5073683","0.0-12.0-7.0-2.0-0.0","3193","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","436","5078302","0.0-12.0-7.0-3.0-0.0","4106","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","3","","1","","","3","3"
+"","html-keyboard-response","437","5079607","0.0-12.0-7.0-4.0-0.0","798","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","438","5082376","0.0-12.0-8.0-0.0-0.0","2261","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","10","","1","","","10","0"
+"","html-keyboard-response","439","5086480","0.0-12.0-8.0-1.0-0.0","3602","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","440","5092376","0.0-12.0-8.0-2.0-0.0","5380","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","12","","1","","","12","2"
+"","html-keyboard-response","441","5094280","0.0-12.0-8.0-3.0-0.0","1402","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","6","","1","","","6","3"
+"","html-keyboard-response","442","5095383","0.0-12.0-8.0-4.0-0.0","587","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","443","5098895","0.0-12.0-9.0-0.0-0.0","2998","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","444","5100087","0.0-12.0-9.0-1.0-0.0","680","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","445","5101199","0.0-12.0-9.0-2.0-0.0","599","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","15","","1","","","15","2"
+"","html-keyboard-response","446","5102432","0.0-12.0-9.0-3.0-0.0","722","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","18","","1","","","18","3"
+"","html-keyboard-response","447","5103703","0.0-12.0-9.0-4.0-0.0","757","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","448","5107143","0.0-12.0-10.0-0.0-0.0","2931","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","449","5109391","0.0-12.0-10.0-1.0-0.0","1743","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","450","5111799","0.0-12.0-10.0-2.0-0.0","1904","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","451","5115575","0.0-12.0-10.0-3.0-0.0","3265","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","452","5124127","0.0-12.0-10.0-4.0-0.0","8050","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","453","5128568","0.0-12.0-11.0-0.0-0.0","3924","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","16","","1","","","16","0"
+"","html-keyboard-response","454","5134088","0.0-12.0-11.0-1.0-0.0","5012","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","5","","0","","","7","1"
+"","html-keyboard-response","456","5141314","0.0-12.0-11.0-2.0-0.0","3223","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","14","","1","","","14","2"
+"","html-keyboard-response","457","5146825","0.0-12.0-11.0-3.0-0.0","5004","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","5","","1","","","5","3"
+"","html-keyboard-response","458","5152505","0.0-12.0-11.0-4.0-0.0","5168","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","10","","1","","","10","4"
+"","html-keyboard-response","459","5155121","0.0-12.0-11.0-5.0-0.0","2101","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","1","","1","","","1","5"
+"","html-keyboard-response","460","5156570","0.0-12.0-11.0-6.0-0.0","934","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","461","5200593","0.0-13.0-0.0-0.0","43506","<p style=""position:absolute; top:30%; font-size:25px; color:green;"" >Take a short break now</p>"," ","","","","","",""
+"","html-keyboard-response","462","5201327","0.0-13.0-1.0","727","<p style=""font-size: 25px;"">Please press space to start the next program<br>>>>>>></p>"," ","","","","","",""
+"","html-keyboard-response","463","5202142","0.0-13.0-2.0","813","<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 11</a><a style=""""></a></div></div>","","null","","64","a = 11","",""
+"","html-keyboard-response","464","5205942","0.0-13.0-4.0-0.0-0.0","3297","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","15","","1","","","15","0"
+"","html-keyboard-response","465","5207247","0.0-13.0-4.0-1.0-0.0","788","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","466","5209239","0.0-13.0-4.0-2.0-0.0","1484","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","9","","1","","","9","2"
+"","html-keyboard-response","467","5210912","0.0-13.0-4.0-3.0-0.0","1158","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","3","","1","","","3","3"
+"","html-keyboard-response","468","5211878","0.0-13.0-4.0-4.0-0.0","456","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","469","5218759","0.0-13.0-5.0-0.0-0.0","6370","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>","7","","1","","","7","0"
+"","html-keyboard-response","470","5228103","0.0-13.0-5.0-1.0-0.0","8830","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>","17","","1","","","17","1"
+"","html-keyboard-response","471","5230271","0.0-13.0-5.0-2.0-0.0","1659","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","472","5236775","0.0-13.0-6.0-0.0-0.0","6000","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","473","5239191","0.0-13.0-6.0-1.0-0.0","1907","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","474","5242935","0.0-13.0-6.0-2.0-0.0","3228","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>","3","","1","","","3","2"
+"","html-keyboard-response","475","5244511","0.0-13.0-6.0-3.0-0.0","1064","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>","2","","1","","","2","3"
+"","html-keyboard-response","476","5246231","0.0-13.0-6.0-4.0-0.0","1206","<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","477","5250655","0.0-13.0-7.0-0.0-0.0","3915","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","478","5251847","0.0-13.0-7.0-1.0-0.0","690","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","5","","1","","","5","1"
+"","html-keyboard-response","479","5254727","0.0-13.0-7.0-2.0-0.0","2368","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","15","","1","","","15","2"
+"","html-keyboard-response","480","5255894","0.0-13.0-7.0-3.0-0.0","655","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","14","","1","","","14","3"
+"","html-keyboard-response","481","5257150","0.0-13.0-7.0-4.0-0.0","743","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","482","5262101","0.0-13.0-8.0-0.0-0.0","4446","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","9","","1","","","9","0"
+"","html-keyboard-response","483","5264405","0.0-13.0-8.0-1.0-0.0","1802","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","10","","1","","","10","1"
+"","html-keyboard-response","484","5266021","0.0-13.0-8.0-2.0-0.0","1100","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","5","","1","","","5","2"
+"","html-keyboard-response","485","5267357","0.0-13.0-8.0-3.0-0.0","820","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","6","","1","","","6","3"
+"","html-keyboard-response","486","5271645","0.0-13.0-8.0-4.0-0.0","3773","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","1","","1","","","1","4"
+"","html-keyboard-response","487","5272572","0.0-13.0-8.0-5.0-0.0","421","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","2","","1","","","2","5"
+"","html-keyboard-response","488","5273749","0.0-13.0-8.0-6.0-0.0","662","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","489","5282670","0.0-13.0-9.0-0.0-0.0","8417","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","490","5285325","0.0-13.0-9.0-1.0-0.0","2138","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>","18","","1","","","18","1"
+"","html-keyboard-response","491","5286805","0.0-13.0-9.0-2.0-0.0","970","<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","492","5291133","0.0-13.0-10.0-0.0-0.0","3815","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","6","","1","","","6","0"
+"","html-keyboard-response","493","5292894","0.0-13.0-10.0-1.0-0.0","1255","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","12","","1","","","12","1"
+"","html-keyboard-response","494","5295461","0.0-13.0-10.0-2.0-0.0","2057","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","4","","1","","","4","2"
+"","html-keyboard-response","495","5298036","0.0-13.0-10.0-3.0-0.0","2068","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","8","","1","","","8","3"
+"","html-keyboard-response","496","5299805","0.0-13.0-10.0-4.0-0.0","1254","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"","html-keyboard-response","497","5303501","0.0-13.0-11.0-0.0-0.0","3186","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","12","","1","","","12","0"
+"","html-keyboard-response","498","5305269","0.0-13.0-11.0-1.0-0.0","1262","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","16","","1","","","16","1"
+"","html-keyboard-response","499","5306501","0.0-13.0-11.0-2.0-0.0","730","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","20","","1","","","20","2"
+"","html-keyboard-response","500","5308149","0.0-13.0-11.0-3.0-0.0","1131","<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>","backspace","","1","","","backspace",""
+"true","fullscreen","501","5308656","0.0-14.0","","","","","","","","",""

@@ -1,0 +1,1170 @@
+success,trial_type,trial_index,time_elapsed,internal_node_id,rt,stimulus,response,expected_response,correct,uid,text1,correct_response,loop_step
+TRUE,fullscreen,0,43599,0.0-0.0,,,,,,,,,
+,html-keyboard-response,1,44756,0.0-1.0,1153,Please make sure that your keyboard is in English mode. Press 'A' to continue,a,,,,,,
+,html-keyboard-response,2,45841,0.0-2.0-1.0,1084,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,3,47192,0.0-2.0-2.0,1348,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 11</a><a style=""""></a></div></div>",,null,,55,a = 11,,
+,html-keyboard-response,4,54960,0.0-2.0-4.0-0.0,7265,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",t,,1,,,15,0
+,html-keyboard-response,5,57975,0.0-2.0-4.0-2.0,2504,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,6,62591,0.0-2.0-4.0-4.0,4106,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",9,,1,,,9,2
+,html-keyboard-response,7,64487,0.0-2.0-4.0-6.0,1391,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",3,,1,,,3,3
+,html-keyboard-response,8,66525,0.0-2.0-4.0-8.0-0.0,1533,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 5:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,9,80810,0.0-2.0-5.0-0.0,13777,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>",0,,0,,,7,0
+,html-keyboard-response,11,90859,0.0-2.0-5.0-2.0,8538,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>",u,,1,,,17,1
+,html-keyboard-response,12,92740,0.0-2.0-5.0-4.0-0.0,1371,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,13,100986,0.0-2.0-6.0-0.0,7737,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,14,106996,0.0-2.0-6.0-2.0,5508,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,15,113919,0.0-2.0-6.0-4.0,6416,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>",3,,1,,,3,2
+,html-keyboard-response,16,117587,0.0-2.0-6.0-6.0,3164,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>",2,,1,,,2,3
+,html-keyboard-response,17,118753,0.0-2.0-6.0-8.0-0.0,657,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a = average(a,1)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,18,127740,0.0-2.0-7.0-0.0,8484,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,19,129600,0.0-2.0-7.0-2.0,1351,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,20,134338,0.0-2.0-7.0-4.0,4225,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,21,135350,0.0-2.0-7.0-6.0,504,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",r,,1,,,14,3
+,html-keyboard-response,22,136413,0.0-2.0-7.0-8.0-0.0,552,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,23,145046,0.0-2.0-8.0-0.0,8122,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,24,146718,0.0-2.0-8.0-2.0,1165,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,25,149678,0.0-2.0-8.0-4.0,2453,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",5,,1,,,5,2
+,html-keyboard-response,26,152415,0.0-2.0-8.0-6.0,2229,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",6,,1,,,6,3
+,html-keyboard-response,27,155674,0.0-2.0-8.0-8.0,2749,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",1,,1,,,1,4
+,html-keyboard-response,28,157387,0.0-2.0-8.0-10.0,1211,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",2,,1,,,2,5
+,html-keyboard-response,29,160214,0.0-2.0-8.0-12.0-0.0,2317,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,30,166155,0.0-2.0-9.0-0.0,5435,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,31,173229,0.0-2.0-9.0-2.0,6564,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>",i,,1,,,18,1
+,html-keyboard-response,32,175794,0.0-2.0-9.0-4.0-0.0,2058,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,33,182974,0.0-2.0-10.0-0.0,6670,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,34,188637,0.0-2.0-10.0-2.0,5157,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,35,191573,0.0-2.0-10.0-4.0,2432,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,36,194698,0.0-2.0-10.0-6.0,2619,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,37,196281,0.0-2.0-10.0-8.0-0.0,1077,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 11:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,38,201267,0.0-2.0-11.0-0.0,4476,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",w,,1,,,12,0
+,html-keyboard-response,39,207479,0.0-2.0-11.0-2.0,5704,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",y,,1,,,16,1
+,html-keyboard-response,40,212362,0.0-2.0-11.0-4.0,4377,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",p,,1,,,20,2
+,html-keyboard-response,41,213383,0.0-2.0-11.0-6.0-0.0,511,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,42,216667,0.0-3.0-1.0,2774,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,43,218887,0.0-3.0-2.0,2219,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 9</a><a style=""""></a></div></div>",,null,,91,a = 9,,
+,html-keyboard-response,44,225837,0.0-3.0-4.0-0.0,6445,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 3</a><a style=""""></a></div></div>",3,,1,,,3,0
+,html-keyboard-response,45,229639,0.0-3.0-4.0-2.0,3294,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 3</a><a style=""""></a></div></div>",1,,1,,,1,1
+,html-keyboard-response,46,230839,0.0-3.0-4.0-4.0-0.0,696,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,47,235691,0.0-3.0-5.0-0.0,4345,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",7,,1,,,7,0
+,html-keyboard-response,48,241073,0.0-3.0-5.0-2.0,4872,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",e,,1,,,13,1
+,html-keyboard-response,49,244502,0.0-3.0-5.0-4.0,2922,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",o,,1,,,19,2
+,html-keyboard-response,50,245853,0.0-3.0-5.0-6.0-0.0,845,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,51,253032,0.0-3.0-6.0-0.0,6670,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",p,,1,,,20,0
+,html-keyboard-response,52,254630,0.0-3.0-6.0-2.0,1094,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,53,260069,0.0-3.0-6.0-4.0,4932,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",e,,1,,,13,2
+,html-keyboard-response,54,265212,0.0-3.0-6.0-6.0,4636,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",5,,1,,,5,3
+,html-keyboard-response,55,266688,0.0-3.0-6.0-8.0-0.0,967,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,56,272721,0.0-3.0-7.0-0.0,5528,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",t,,1,,,15,0
+,html-keyboard-response,57,275018,0.0-3.0-7.0-2.0,1793,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,58,280257,0.0-3.0-7.0-4.0,4736,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,59,282308,0.0-3.0-7.0-6.0,1540,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,60,285002,0.0-3.0-7.0-8.0-0.0,2186,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,61,292755,0.0-3.0-8.0-0.0,7251,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>",5,,1,,,5,0
+,html-keyboard-response,62,298612,0.0-3.0-8.0-2.0,5348,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>",3,,1,,,3,1
+,html-keyboard-response,63,305807,0.0-3.0-8.0-4.0,6686,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>",2,,1,,,2,2
+,html-keyboard-response,64,310710,0.0-3.0-8.0-6.0-0.0,4398,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a, 1)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,65,316530,0.0-3.0-9.0-0.0,5310,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",1,,1,,,1,0
+,html-keyboard-response,66,318457,0.0-3.0-9.0-2.0,1424,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,67,321060,0.0-3.0-9.0-4.0,2100,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,68,323624,0.0-3.0-9.0-6.0,2061,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",p,,1,,,20,3
+,html-keyboard-response,69,330368,0.0-3.0-9.0-8.0-0.0,6241,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,70,334204,0.0-3.0-10.0-0.0,3332,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>",u,,1,,,17,0
+,html-keyboard-response,71,337230,0.0-3.0-10.0-2.0,2517,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>",r,,1,,,14,1
+,html-keyboard-response,72,339619,0.0-3.0-10.0-4.0,1883,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>",q,,1,,,11,2
+,html-keyboard-response,73,340770,0.0-3.0-10.0-6.0-0.0,643,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,74,345622,0.0-3.0-11.0-0.0,4350,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,75,349802,0.0-3.0-11.0-2.0,3675,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>",1,,1,,,1,1
+,html-keyboard-response,76,350825,0.0-3.0-11.0-4.0-0.0,521,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,77,353452,0.0-4.0-1.0,2124,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,78,356130,0.0-4.0-2.0,2677,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 8</a><a style=""""></a></div></div>",,null,,46,a = 8,,
+,html-keyboard-response,79,360425,0.0-4.0-4.0-0.0,3792,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,80,362724,0.0-4.0-4.0-2.0,1795,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,81,365084,0.0-4.0-4.0-4.0,1852,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",0,,1,,,10,2
+,html-keyboard-response,82,367835,0.0-4.0-4.0-6.0,2242,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",y,,1,,,16,3
+,html-keyboard-response,83,371786,0.0-4.0-4.0-8.0,3439,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",r,,1,,,14,4
+,html-keyboard-response,84,374743,0.0-4.0-4.0-10.0,2454,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",p,,1,,,20,5
+,html-keyboard-response,85,376857,0.0-4.0-4.0-12.0-0.0,1605,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 17:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,86,383038,0.0-4.0-5.0-0.0,5677,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>",0,,1,,,10,0
+,html-keyboard-response,87,389288,0.0-4.0-5.0-2.0,5740,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,88,390374,0.0-4.0-5.0-4.0-0.0,582,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,89,398773,0.0-4.0-6.0-0.0,7893,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,90,402809,0.0-4.0-6.0-2.0,3525,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,91,408095,0.0-4.0-6.0-4.0,4783,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,92,410179,0.0-4.0-6.0-6.0-0.0,1578,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,93,416677,0.0-4.0-7.0-0.0,5988,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",0,,1,,,10,0
+,html-keyboard-response,94,421165,0.0-4.0-7.0-2.0,3981,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,95,424913,0.0-4.0-7.0-4.0,3239,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,96,427681,0.0-4.0-7.0-6.0,2257,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",3,,1,,,3,3
+,html-keyboard-response,97,431466,0.0-4.0-7.0-8.0-0.0,3276,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,98,435616,0.0-4.0-8.0-0.0,3640,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",0,,1,,,10,0
+,html-keyboard-response,99,437567,0.0-4.0-8.0-2.0,1442,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,100,442755,0.0-4.0-8.0-4.0,4682,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",w,,1,,,12,2
+,html-keyboard-response,101,446422,0.0-4.0-8.0-6.0,3157,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",6,,1,,,6,3
+,html-keyboard-response,102,448552,0.0-4.0-8.0-8.0-0.0,1624,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 5:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,103,452097,0.0-4.0-9.0-0.0,3041,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,104,454676,0.0-4.0-9.0-2.0,2076,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,105,456242,0.0-4.0-9.0-4.0,1057,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,106,458778,0.0-4.0-9.0-6.0,2027,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",i,,1,,,18,3
+,html-keyboard-response,107,460247,0.0-4.0-9.0-8.0-0.0,964,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,108,464983,0.0-4.0-10.0-0.0,4230,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,109,466238,0.0-4.0-10.0-2.0,752,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,110,471717,0.0-4.0-10.0-4.0,4973,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,111,474409,0.0-4.0-10.0-6.0,2189,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,112,476245,0.0-4.0-10.0-8.0-0.0,1333,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,113,487520,0.0-4.0-11.0-0.0,10768,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",y,,1,,,16,0
+,html-keyboard-response,114,491225,0.0-4.0-11.0-2.0,3201,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,115,496429,0.0-4.0-11.0-4.0,4701,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,116,499481,0.0-4.0-11.0-6.0,2542,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",5,,1,,,5,3
+,html-keyboard-response,117,502862,0.0-4.0-11.0-8.0,2876,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",0,,1,,,10,4
+,html-keyboard-response,118,505390,0.0-4.0-11.0-10.0,2022,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",1,,1,,,1,5
+,html-keyboard-response,119,506823,0.0-4.0-11.0-12.0-0.0,927,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,120,509185,0.0-5.0-1.0,1855,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,121,510947,0.0-5.0-2.0,1760,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 18</a><a style=""""></a></div></div>",,null,,19,a = 18,,
+,html-keyboard-response,122,517082,0.0-5.0-4.0-0.0,5626,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,123,518938,0.0-5.0-4.0-2.0,1353,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,124,522302,0.0-5.0-4.0-4.0,2854,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,125,528098,0.0-5.0-4.0-6.0,5289,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,126,529844,0.0-5.0-4.0-8.0-0.0,1244,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,127,535122,0.0-5.0-5.0-0.0,4770,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",4,,1,,,4,0
+,html-keyboard-response,128,540236,0.0-5.0-5.0-2.0,4610,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",2,,1,,,2,1
+,html-keyboard-response,129,542748,0.0-5.0-5.0-4.0,2004,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",1,,1,,,1,2
+,html-keyboard-response,130,543931,0.0-5.0-5.0-6.0-0.0,676,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,131,546240,0.0-5.0-6.0-0.0,1802,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>",3,,1,,,3,0
+,html-keyboard-response,132,550379,0.0-5.0-6.0-2.0,3628,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,133,553331,0.0-5.0-6.0-4.0,2443,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>",7,,1,,,7,2
+,html-keyboard-response,134,556864,0.0-5.0-6.0-6.0,3024,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,135,557790,0.0-5.0-6.0-8.0-0.0,422,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,136,562061,0.0-5.0-7.0-0.0,3763,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",i,,1,,,18,0
+,html-keyboard-response,137,565422,0.0-5.0-7.0-2.0,2857,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,138,570425,0.0-5.0-7.0-4.0,4496,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,139,572631,0.0-5.0-7.0-6.0,1702,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",5,,1,,,5,3
+,html-keyboard-response,140,574679,0.0-5.0-7.0-8.0-0.0,1537,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,141,584445,0.0-5.0-8.0-0.0,9256,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",7,,1,,,7,0
+,html-keyboard-response,142,596808,0.0-5.0-8.0-2.0,11855,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,143,601679,0.0-5.0-8.0-4.0,4367,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,144,603183,0.0-5.0-8.0-6.0-0.0,994,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,145,608934,0.0-5.0-9.0-0.0,5245,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,146,616706,0.0-5.0-9.0-2.0,7266,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,147,617768,0.0-5.0-9.0-4.0-0.0,559,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,148,623418,0.0-5.0-10.0-0.0,5146,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",w,,1,,,12,0
+,html-keyboard-response,149,625205,0.0-5.0-10.0-2.0,1285,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,150,628275,0.0-5.0-10.0-4.0,2562,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,151,629959,0.0-5.0-10.0-6.0,1175,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,152,632569,0.0-5.0-10.0-8.0,2099,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",i,,1,,,18,4
+,html-keyboard-response,153,634752,0.0-5.0-10.0-10.0,1680,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",e,,1,,,13,5
+,html-keyboard-response,154,637161,0.0-5.0-10.0-12.0-0.0,1905,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,155,641408,0.0-5.0-11.0-0.0,3744,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",u,,1,,,17,0
+,html-keyboard-response,156,643933,0.0-5.0-11.0-2.0,2020,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,157,646763,0.0-5.0-11.0-4.0,2323,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,158,649052,0.0-5.0-11.0-6.0,1786,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",7,,1,,,7,3
+,html-keyboard-response,159,652437,0.0-5.0-11.0-8.0,2877,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",q,,1,,,11,4
+,html-keyboard-response,160,659022,0.0-5.0-11.0-10.0,6079,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",4,,1,,,4,5
+,html-keyboard-response,161,660406,0.0-5.0-11.0-12.0-0.0,872,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,162,662789,0.0-6.0-1.0,1876,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,163,665066,0.0-6.0-2.0,2274,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 7</a><a style=""""></a></div></div>",,null,,10,a = 7,,
+,html-keyboard-response,164,670537,0.0-6.0-4.0-0.0,4967,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",r,,1,,,14,0
+,html-keyboard-response,165,672314,0.0-6.0-4.0-2.0,1274,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,166,676370,0.0-6.0-4.0-4.0,3546,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",p,,1,,,20,2
+,html-keyboard-response,167,680391,0.0-6.0-4.0-6.0,3511,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",y,,1,,,16,3
+,html-keyboard-response,168,681916,0.0-6.0-4.0-8.0-0.0,1020,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,169,686531,0.0-6.0-5.0-0.0,4108,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,0
+,html-keyboard-response,170,688628,0.0-6.0-5.0-2.0,1587,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,1
+,html-keyboard-response,171,693063,0.0-6.0-5.0-4.0,3926,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",2,,1,,,2,2
+,html-keyboard-response,172,694561,0.0-6.0-5.0-6.0,993,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,3
+,html-keyboard-response,173,698314,0.0-6.0-5.0-8.0,3250,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",1,,1,,,1,4
+,html-keyboard-response,174,699408,0.0-6.0-5.0-10.0,592,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",2,,1,,,2,5
+,html-keyboard-response,175,700780,0.0-6.0-5.0-12.0-0.0,867,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,176,710680,0.0-6.0-6.0-0.0,9392,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>",5,,1,,,5,0
+,html-keyboard-response,177,721761,0.0-6.0-6.0-2.0,10571,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>",e,,1,,,13,1
+,html-keyboard-response,178,723260,0.0-6.0-6.0-4.0-0.0,996,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,179,730521,0.0-6.0-7.0-0.0,6754,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,180,733781,0.0-6.0-7.0-2.0,2756,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,181,738178,0.0-6.0-7.0-4.0,3890,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",6,,1,,,6,2
+,html-keyboard-response,182,741438,0.0-6.0-7.0-6.0-0.0,2749,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,183,745407,0.0-6.0-8.0-0.0,3463,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,184,747293,0.0-6.0-8.0-2.0,1380,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",4,,1,,,4,1
+,html-keyboard-response,185,749769,0.0-6.0-8.0-4.0,1970,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",6,,1,,,6,2
+,html-keyboard-response,186,751007,0.0-6.0-8.0-6.0,733,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",3,,1,,,3,3
+,html-keyboard-response,187,752939,0.0-6.0-8.0-8.0-0.0,1427,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,188,759808,0.0-6.0-9.0-0.0,6359,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,189,764312,0.0-6.0-9.0-2.0,4000,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,190,765687,0.0-6.0-9.0-4.0-0.0,870,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,191,770846,0.0-6.0-10.0-0.0,4654,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",i,,1,,,18,0
+,html-keyboard-response,192,773446,0.0-6.0-10.0-2.0,2094,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",r,,1,,,14,1
+,html-keyboard-response,193,777053,0.0-6.0-10.0-4.0,3101,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",p,,1,,,20,2
+,html-keyboard-response,194,778910,0.0-6.0-10.0-6.0,1345,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",y,,1,,,16,3
+,html-keyboard-response,195,781455,0.0-6.0-10.0-8.0-0.0,2038,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 14:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,196,784891,0.0-6.0-11.0-0.0,2930,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",e,,1,,,13,0
+,html-keyboard-response,197,788335,0.0-6.0-11.0-2.0,2942,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,198,790336,0.0-6.0-11.0-4.0,1490,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",7,,1,,,7,2
+,html-keyboard-response,199,792217,0.0-6.0-11.0-6.0,1372,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",4,,1,,,4,3
+,html-keyboard-response,200,793551,0.0-6.0-11.0-8.0-0.0,831,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,201,903518,0.0-7.0-1.0,109461,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,202,904895,0.0-7.0-2.0,1375,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 16</a><a style=""""></a></div></div>",,null,,73,a = 16,,
+,html-keyboard-response,203,908618,0.0-7.0-4.0-0.0,3217,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 2</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,204,911409,0.0-7.0-4.0-2.0,2282,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 2</a><a style=""""></a></div></div>",4,,1,,,4,1
+,html-keyboard-response,205,913838,0.0-7.0-4.0-4.0-0.0,1925,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,206,919199,0.0-7.0-5.0-0.0,4853,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,207,925234,0.0-7.0-5.0-2.0,5530,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",9,,1,,,9,1
+,html-keyboard-response,208,931555,0.0-7.0-5.0-4.0,5812,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,209,932604,0.0-7.0-5.0-6.0-0.0,539,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,210,942193,0.0-7.0-6.0-0.0,9082,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",o,,1,,,19,0
+,html-keyboard-response,211,944770,0.0-7.0-6.0-2.0,2074,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",e,,1,,,13,1
+,html-keyboard-response,212,951832,0.0-7.0-6.0-4.0,6552,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,213,954600,0.0-7.0-6.0-6.0,2264,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",w,,1,,,12,3
+,html-keyboard-response,214,956475,0.0-7.0-6.0-8.0-0.0,1364,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 13:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,215,965425,0.0-7.0-7.0-0.0,8440,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,216,969750,0.0-7.0-7.0-2.0,3822,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,217,971924,0.0-7.0-7.0-4.0,1669,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",5,,1,,,5,2
+,html-keyboard-response,218,973313,0.0-7.0-7.0-6.0-0.0,881,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,219,976045,0.0-7.0-8.0-0.0,2229,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",t,,1,,,15,0
+,html-keyboard-response,220,979291,0.0-7.0-8.0-2.0,2740,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",4,,1,,,4,1
+,html-keyboard-response,221,984032,0.0-7.0-8.0-4.0,4232,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",w,,1,,,12,2
+,html-keyboard-response,222,986140,0.0-7.0-8.0-6.0,1604,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",1,,1,,,1,3
+,html-keyboard-response,223,987285,0.0-7.0-8.0-8.0-0.0,643,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,224,990076,0.0-7.0-9.0-0.0,2285,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,225,991825,0.0-7.0-9.0-2.0,1245,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",3,,1,,,3,1
+,html-keyboard-response,226,996284,0.0-7.0-9.0-4.0,3956,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,227,997950,0.0-7.0-9.0-6.0,1157,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,228,999664,0.0-7.0-9.0-8.0-0.0,1209,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,229,1004572,0.0-7.0-10.0-0.0,4404,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 7:
+   a -= 2</a><a style=""""></a></div></div>",7,,1,,,7,0
+,html-keyboard-response,230,1008614,0.0-7.0-10.0-2.0,3534,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 7:
+   a -= 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,231,1009600,0.0-7.0-10.0-4.0-0.0,481,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 7:
+   a -= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,232,1013888,0.0-7.0-11.0-0.0,3778,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",r,,1,,,14,0
+,html-keyboard-response,233,1018334,0.0-7.0-11.0-2.0,3942,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,234,1022100,0.0-7.0-11.0-4.0,3254,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",i,,0,,,16,2
+,html-keyboard-response,236,1027328,0.0-7.0-11.0-6.0,3709,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,237,1029750,0.0-7.0-11.0-8.0-0.0,1919,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,238,1031785,0.0-8.0-1.0,1528,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,239,1033413,0.0-8.0-2.0,1626,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 7</a><a style=""""></a></div></div>",,null,,1,a = 7,,
+,html-keyboard-response,240,1036141,0.0-8.0-4.0-0.0,2217,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",r,,1,,,14,0
+,html-keyboard-response,241,1038325,0.0-8.0-4.0-2.0,1676,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,242,1040510,0.0-8.0-4.0-4.0,1678,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",p,,1,,,20,2
+,html-keyboard-response,243,1043239,0.0-8.0-4.0-6.0,2222,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",y,,1,,,16,3
+,html-keyboard-response,244,1045128,0.0-8.0-4.0-8.0-0.0,1382,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 2
+   a -= 4</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,245,1049203,0.0-8.0-5.0-0.0,3571,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,0
+,html-keyboard-response,246,1050972,0.0-8.0-5.0-2.0,1260,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,1
+,html-keyboard-response,247,1056118,0.0-8.0-5.0-4.0,4639,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",2,,1,,,2,2
+,html-keyboard-response,248,1057691,0.0-8.0-5.0-6.0,1064,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,3
+,html-keyboard-response,249,1059507,0.0-8.0-5.0-8.0,1307,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",1,,1,,,1,4
+,html-keyboard-response,250,1061706,0.0-8.0-5.0-10.0,1689,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",2,,1,,,2,5
+,html-keyboard-response,251,1062670,0.0-8.0-5.0-12.0-0.0,462,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a /= 4
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,252,1069658,0.0-8.0-6.0-0.0,6482,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>",5,,1,,,5,0
+,html-keyboard-response,253,1079720,0.0-8.0-6.0-2.0,9560,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>",e,,1,,,13,1
+,html-keyboard-response,254,1084712,0.0-8.0-6.0-4.0-0.0,4487,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a = round_up(a*2.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,255,1089655,0.0-8.0-7.0-0.0,4434,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,256,1096145,0.0-8.0-7.0-2.0,5985,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,257,1102978,0.0-8.0-7.0-4.0,6329,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",6,,1,,,6,2
+,html-keyboard-response,258,1104246,0.0-8.0-7.0-6.0-0.0,761,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,259,1106518,0.0-8.0-8.0-0.0,1766,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,260,1108967,0.0-8.0-8.0-2.0,1942,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",4,,1,,,4,1
+,html-keyboard-response,261,1111666,0.0-8.0-8.0-4.0,2193,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",6,,1,,,6,2
+,html-keyboard-response,262,1113569,0.0-8.0-8.0-6.0,1401,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",3,,1,,,3,3
+,html-keyboard-response,263,1114528,0.0-8.0-8.0-8.0-0.0,449,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a += 2
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,264,1117924,0.0-8.0-9.0-0.0,2892,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,265,1122057,0.0-8.0-9.0-2.0,3625,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,266,1123064,0.0-8.0-9.0-4.0-0.0,499,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,267,1127070,0.0-8.0-10.0-0.0,3502,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",i,,1,,,18,0
+,html-keyboard-response,268,1131477,0.0-8.0-10.0-2.0,3898,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",r,,1,,,14,1
+,html-keyboard-response,269,1133647,0.0-8.0-10.0-4.0,1661,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",p,,1,,,20,2
+,html-keyboard-response,270,1134866,0.0-8.0-10.0-6.0,713,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",y,,1,,,16,3
+,html-keyboard-response,271,1135983,0.0-8.0-10.0-8.0-0.0,614,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 6
+   a -= 4</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,272,1141942,0.0-8.0-11.0-0.0,5455,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",e,,1,,,13,0
+,html-keyboard-response,273,1144115,0.0-8.0-11.0-2.0,1666,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,274,1148423,0.0-8.0-11.0-4.0,3799,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",7,,1,,,7,2
+,html-keyboard-response,275,1149399,0.0-8.0-11.0-6.0,471,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",4,,1,,,4,3
+,html-keyboard-response,276,1150251,0.0-8.0-11.0-8.0-0.0,343,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a -= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,277,1153060,0.0-9.0-1.0,2299,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,278,1155195,0.0-9.0-2.0,2133,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 18</a><a style=""""></a></div></div>",,null,,28,a = 18,,
+,html-keyboard-response,279,1159186,0.0-9.0-4.0-0.0,3482,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,280,1162867,0.0-9.0-4.0-2.0,3170,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,281,1165364,0.0-9.0-4.0-4.0,1989,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,282,1168400,0.0-9.0-4.0-6.0,2529,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,283,1170460,0.0-9.0-4.0-8.0-0.0,1553,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,284,1175818,0.0-9.0-5.0-0.0,4848,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",4,,1,,,4,0
+,html-keyboard-response,285,1178139,0.0-9.0-5.0-2.0,1818,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",2,,1,,,2,1
+,html-keyboard-response,286,1179732,0.0-9.0-5.0-4.0,1090,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",1,,1,,,1,2
+,html-keyboard-response,287,1180634,0.0-9.0-5.0-6.0-0.0,394,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 2:
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,288,1183076,0.0-9.0-6.0-0.0,1934,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>",3,,1,,,3,0
+,html-keyboard-response,289,1186512,0.0-9.0-6.0-2.0,2933,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,290,1187737,0.0-9.0-6.0-4.0,721,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>",7,,1,,,7,2
+,html-keyboard-response,291,1189383,0.0-9.0-6.0-6.0,1143,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,292,1190196,0.0-9.0-6.0-8.0-0.0,305,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,293,1195087,0.0-9.0-7.0-0.0,4383,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",i,,1,,,18,0
+,html-keyboard-response,294,1197012,0.0-9.0-7.0-2.0,1421,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,295,1200549,0.0-9.0-7.0-4.0,3028,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,296,1204178,0.0-9.0-7.0-6.0,3122,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",5,,1,,,5,3
+,html-keyboard-response,297,1205550,0.0-9.0-7.0-8.0-0.0,862,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 9
+   a /= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,298,1215146,0.0-9.0-8.0-0.0,9090,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",7,,1,,,7,0
+,html-keyboard-response,299,1234493,0.0-9.0-8.0-2.0,18837,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,300,1239111,0.0-9.0-8.0-4.0,4112,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,301,1240317,0.0-9.0-8.0-6.0-0.0,701,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_down(a*1.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,302,1247619,0.0-9.0-9.0-0.0,6794,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,303,1251711,0.0-9.0-9.0-2.0,3584,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,304,1252994,0.0-9.0-9.0-4.0-0.0,778,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = average(a,3)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,305,1257071,0.0-9.0-10.0-0.0,3566,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",w,,1,,,12,0
+,html-keyboard-response,306,1259276,0.0-9.0-10.0-2.0,1701,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,307,1262207,0.0-9.0-10.0-4.0,2424,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,308,1265889,0.0-9.0-10.0-6.0,3177,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,309,1270736,0.0-9.0-10.0-8.0,4344,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",i,,1,,,18,4
+,html-keyboard-response,310,1272653,0.0-9.0-10.0-10.0,1413,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",e,,1,,,13,5
+,html-keyboard-response,311,1273502,0.0-9.0-10.0-12.0-0.0,341,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a *= 2
+   a -= 5</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,312,1278901,0.0-9.0-11.0-0.0,4893,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",u,,1,,,17,0
+,html-keyboard-response,313,1281601,0.0-9.0-11.0-2.0,2194,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,314,1284515,0.0-9.0-11.0-4.0,2404,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,315,1286372,0.0-9.0-11.0-6.0,1347,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",7,,1,,,7,3
+,html-keyboard-response,316,1291293,0.0-9.0-11.0-8.0,4413,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",q,,1,,,11,4
+,html-keyboard-response,317,1294450,0.0-9.0-11.0-10.0,2650,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",4,,1,,,4,5
+,html-keyboard-response,318,1295577,0.0-9.0-11.0-12.0-0.0,623,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a += 4
+   a -= 7</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,319,1394870,0.0-10.0-1.0,98787,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,320,1395972,0.0-10.0-2.0,1100,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 8</a><a style=""""></a></div></div>",,null,,37,a = 8,,
+,html-keyboard-response,321,1399283,0.0-10.0-4.0-0.0,2802,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,322,1400846,0.0-10.0-4.0-2.0,1054,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,323,1402746,0.0-10.0-4.0-4.0,1394,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",0,,1,,,10,2
+,html-keyboard-response,324,1404816,0.0-10.0-4.0-6.0,1560,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",y,,1,,,16,3
+,html-keyboard-response,325,1406435,0.0-10.0-4.0-8.0,1116,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",r,,1,,,14,4
+,html-keyboard-response,326,1408780,0.0-10.0-4.0-10.0,1842,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",p,,1,,,20,5
+,html-keyboard-response,327,1409574,0.0-10.0-4.0-12.0-0.0,290,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 2
+   a += 6</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,328,1412034,0.0-10.0-5.0-0.0,1954,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>",0,,1,,,10,0
+,html-keyboard-response,329,1415185,0.0-10.0-5.0-2.0,2649,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,330,1415862,0.0-10.0-5.0-4.0-0.0,174,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 8:
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,331,1421305,0.0-10.0-6.0-0.0,4937,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,332,1426498,0.0-10.0-6.0-2.0,4689,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,333,1435069,0.0-10.0-6.0-4.0,8067,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,334,1437602,0.0-10.0-6.0-6.0-0.0,2021,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,335,1440045,0.0-10.0-7.0-0.0,1933,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",0,,1,,,10,0
+,html-keyboard-response,336,1444274,0.0-10.0-7.0-2.0,3722,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,337,1448379,0.0-10.0-7.0-4.0,3595,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,338,1451728,0.0-10.0-7.0-6.0,2847,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",3,,1,,,3,3
+,html-keyboard-response,339,1453399,0.0-10.0-7.0-8.0-0.0,1162,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 4:
+   a = average(a,2)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,340,1456188,0.0-10.0-8.0-0.0,2280,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",0,,1,,,10,0
+,html-keyboard-response,341,1457552,0.0-10.0-8.0-2.0,855,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,342,1460020,0.0-10.0-8.0-4.0,1963,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",w,,1,,,12,2
+,html-keyboard-response,343,1461598,0.0-10.0-8.0-6.0,1070,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",6,,1,,,6,3
+,html-keyboard-response,344,1462567,0.0-10.0-8.0-8.0-0.0,463,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 7
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,345,1465202,0.0-10.0-9.0-0.0,2130,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,346,1468263,0.0-10.0-9.0-2.0,2558,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,347,1469944,0.0-10.0-9.0-4.0,1175,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,348,1471447,0.0-10.0-9.0-6.0,998,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",i,,1,,,18,3
+,html-keyboard-response,349,1472274,0.0-10.0-9.0-8.0-0.0,321,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3, 4]:
+   a += 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,350,1474540,0.0-10.0-10.0-0.0,1757,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,351,1477604,0.0-10.0-10.0-2.0,2557,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,352,1480629,0.0-10.0-10.0-4.0,2516,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,353,1482273,0.0-10.0-10.0-6.0,1137,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,354,1483354,0.0-10.0-10.0-8.0-0.0,572,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,355,1488190,0.0-10.0-11.0-0.0,4330,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",y,,1,,,16,0
+,html-keyboard-response,356,1490931,0.0-10.0-11.0-2.0,2233,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,357,1493457,0.0-10.0-11.0-4.0,2018,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,358,1495485,0.0-10.0-11.0-6.0,1526,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",5,,1,,,5,3
+,html-keyboard-response,359,1498332,0.0-10.0-11.0-8.0,2339,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",0,,1,,,10,4
+,html-keyboard-response,360,1499717,0.0-10.0-11.0-10.0,876,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",1,,1,,,1,5
+,html-keyboard-response,361,1500974,0.0-10.0-11.0-12.0-0.0,754,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 2
+   a -= 9</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,362,1503011,0.0-11.0-1.0,1530,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,363,1503876,0.0-11.0-2.0,864,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 9</a><a style=""""></a></div></div>",,null,,100,a = 9,,
+,html-keyboard-response,364,1507062,0.0-11.0-4.0-0.0,2677,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3</a><a style=""""></a></div></div>",3,,1,,,3,0
+,html-keyboard-response,365,1509619,0.0-11.0-4.0-2.0,2052,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3</a><a style=""""></a></div></div>",1,,1,,,1,1
+,html-keyboard-response,366,1510467,0.0-11.0-4.0-4.0-0.0,340,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,367,1513818,0.0-11.0-5.0-0.0,2842,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",7,,1,,,7,0
+,html-keyboard-response,368,1518889,0.0-11.0-5.0-2.0,4559,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",e,,1,,,13,1
+,html-keyboard-response,369,1522132,0.0-11.0-5.0-4.0,2740,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",o,,1,,,19,2
+,html-keyboard-response,370,1523414,0.0-11.0-5.0-6.0-0.0,772,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 6</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,371,1528243,0.0-11.0-6.0-0.0,4320,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",p,,1,,,20,0
+,html-keyboard-response,372,1529810,0.0-11.0-6.0-2.0,1058,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,373,1531452,0.0-11.0-6.0-4.0,1138,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",e,,1,,,13,2
+,html-keyboard-response,374,1535250,0.0-11.0-6.0-6.0,3289,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",5,,1,,,5,3
+,html-keyboard-response,375,1537753,0.0-11.0-6.0-8.0-0.0,2001,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 10:
+   a += 1
+   a -= 8</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,376,1541110,0.0-11.0-7.0-0.0,2852,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",t,,1,,,15,0
+,html-keyboard-response,377,1545376,0.0-11.0-7.0-2.0,3760,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,378,1548274,0.0-11.0-7.0-4.0,2393,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,379,1551043,0.0-11.0-7.0-6.0,2260,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,380,1552162,0.0-11.0-7.0-8.0-0.0,609,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 6:
+   a *= 3
+   a -= 9</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,381,1555926,0.0-11.0-8.0-0.0,3262,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>",5,,1,,,5,0
+,html-keyboard-response,382,1559265,0.0-11.0-8.0-2.0,2832,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>",3,,1,,,3,1
+,html-keyboard-response,383,1563690,0.0-11.0-8.0-4.0,3922,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>",2,,1,,,2,2
+,html-keyboard-response,384,1565098,0.0-11.0-8.0-6.0-0.0,897,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a, 1)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,385,1569686,0.0-11.0-9.0-0.0,4086,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",1,,1,,,1,0
+,html-keyboard-response,386,1571376,0.0-11.0-9.0-2.0,1182,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,387,1573591,0.0-11.0-9.0-4.0,1711,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,388,1576864,0.0-11.0-9.0-6.0,2769,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",p,,1,,,20,3
+,html-keyboard-response,389,1580027,0.0-11.0-9.0-8.0-0.0,2659,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 9:
+   a -= 1
+   a *= 5</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,390,1582571,0.0-11.0-10.0-0.0,2035,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>",u,,1,,,17,0
+,html-keyboard-response,391,1587318,0.0-11.0-10.0-2.0,4238,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>",r,,1,,,14,1
+,html-keyboard-response,392,1590780,0.0-11.0-10.0-4.0,2956,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>",q,,1,,,11,2
+,html-keyboard-response,393,1592436,0.0-11.0-10.0-6.0-0.0,1154,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 12:
+   a -= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,394,1595602,0.0-11.0-11.0-0.0,2663,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,395,1598085,0.0-11.0-11.0-2.0,1973,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>",1,,1,,,1,1
+,html-keyboard-response,396,1599102,0.0-11.0-11.0-4.0-0.0,509,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 5</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,397,1601629,0.0-12.0-1.0,2020,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,398,1602684,0.0-12.0-2.0,1053,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 16</a><a style=""""></a></div></div>",,null,,82,a = 16,,
+,html-keyboard-response,399,1604661,0.0-12.0-4.0-0.0,1469,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a /= 2</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,400,1607120,0.0-12.0-4.0-2.0,1952,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a /= 2</a><a style=""""></a></div></div>",4,,1,,,4,1
+,html-keyboard-response,401,1609280,0.0-12.0-4.0-4.0-0.0,1654,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 6:
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,402,1613540,0.0-12.0-5.0-0.0,3758,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,403,1618331,0.0-12.0-5.0-2.0,4283,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",9,,1,,,9,1
+,html-keyboard-response,404,1632707,0.0-12.0-5.0-4.0,13868,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",r,,1,,,14,2
+,html-keyboard-response,405,1634407,0.0-12.0-5.0-6.0-0.0,1191,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 11:
+   a = round_up(a*1.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,406,1638403,0.0-12.0-6.0-0.0,3490,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",o,,1,,,19,0
+,html-keyboard-response,407,1640249,0.0-12.0-6.0-2.0,1341,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",e,,1,,,13,1
+,html-keyboard-response,408,1645282,0.0-12.0-6.0-4.0,4529,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,409,1647412,0.0-12.0-6.0-6.0,1627,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",w,,1,,,12,3
+,html-keyboard-response,410,1648781,0.0-12.0-6.0-8.0-0.0,860,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 5
+   a -= 6</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,411,1655875,0.0-12.0-7.0-0.0,6586,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",8,,1,,,8,0
+,html-keyboard-response,412,1658882,0.0-12.0-7.0-2.0,2504,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",6,,1,,,6,1
+,html-keyboard-response,413,1663255,0.0-12.0-7.0-4.0,3862,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",5,,1,,,5,2
+,html-keyboard-response,414,1665274,0.0-12.0-7.0-6.0-0.0,1514,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a = average(a,4)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,415,1669316,0.0-12.0-8.0-0.0,3538,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",t,,1,,,15,0
+,html-keyboard-response,416,1672600,0.0-12.0-8.0-2.0,2776,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",4,,1,,,4,1
+,html-keyboard-response,417,1676411,0.0-12.0-8.0-4.0,3299,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",w,,1,,,12,2
+,html-keyboard-response,418,1680788,0.0-12.0-8.0-6.0,3866,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",1,,1,,,1,3
+,html-keyboard-response,419,1684586,0.0-12.0-8.0-8.0-0.0,3287,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a *= 3
+   a -= 11</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,420,1688232,0.0-12.0-9.0-0.0,3136,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,421,1689872,0.0-12.0-9.0-2.0,1135,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",3,,1,,,3,1
+,html-keyboard-response,422,1692900,0.0-12.0-9.0-4.0,2523,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",i,,1,,,18,2
+,html-keyboard-response,423,1695472,0.0-12.0-9.0-6.0,2063,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",9,,1,,,9,3
+,html-keyboard-response,424,1696719,0.0-12.0-9.0-8.0-0.0,742,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 6
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,425,1700908,0.0-12.0-10.0-0.0,3685,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 2</a><a style=""""></a></div></div>",7,,1,,,7,0
+,html-keyboard-response,426,1703728,0.0-12.0-10.0-2.0,2312,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 2</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,427,1704874,0.0-12.0-10.0-4.0-0.0,639,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a -= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,428,1713202,0.0-12.0-11.0-0.0,7816,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",r,,1,,,14,0
+,html-keyboard-response,429,1714740,0.0-12.0-11.0-2.0,1028,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",7,,1,,,7,1
+,html-keyboard-response,430,1716939,0.0-12.0-11.0-4.0,1688,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",y,,1,,,16,2
+,html-keyboard-response,431,1718354,0.0-12.0-11.0-6.0,906,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,432,1719862,0.0-12.0-11.0-8.0-0.0,998,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 7:
+   a += 9
+   a /= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,433,1722373,0.0-13.0-1.0,2004,"<p style=""font-size: 25px;"">press space to start the next program<br>>>>>>></p>", ,,,,,,
+,html-keyboard-response,434,1799129,0.0-13.0-2.0,76752,"<div><div style="" font-size:25px; color:green;""><a style=""white-space:pre-wrap;""> a = 11</a><a style=""""></a></div></div>",,null,,64,a = 11,,
+,html-keyboard-response,435,1802612,0.0-13.0-4.0-0.0,2979,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",t,,1,,,15,0
+,html-keyboard-response,436,1804045,0.0-13.0-4.0-2.0,924,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,437,1806890,0.0-13.0-4.0-4.0,2342,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",9,,1,,,9,2
+,html-keyboard-response,438,1807953,0.0-13.0-4.0-6.0,560,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",3,,1,,,3,3
+,html-keyboard-response,439,1810928,0.0-13.0-4.0-8.0-0.0,2471,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a += 4
+   a /= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,440,1818176,0.0-13.0-5.0-0.0,6744,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>",7,,1,,,7,0
+,html-keyboard-response,441,1827814,0.0-13.0-5.0-2.0,9132,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>",u,,1,,,17,1
+,html-keyboard-response,442,1829611,0.0-13.0-5.0-4.0-0.0,1290,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a = round_down(a*2.5)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,443,1832820,0.0-13.0-6.0-0.0,2706,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,444,1836115,0.0-13.0-6.0-2.0,2785,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,445,1839230,0.0-13.0-6.0-4.0,2605,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>",3,,1,,,3,2
+,html-keyboard-response,446,1841906,0.0-13.0-6.0-6.0,2170,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>",2,,1,,,2,3
+,html-keyboard-response,447,1843268,0.0-13.0-6.0-8.0-0.0,859,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a >= 3:
+   a = average(a,1)</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,448,1846213,0.0-13.0-7.0-0.0,2435,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,449,1847984,0.0-13.0-7.0-2.0,1264,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",5,,1,,,5,1
+,html-keyboard-response,450,1850491,0.0-13.0-7.0-4.0,2004,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",t,,1,,,15,2
+,html-keyboard-response,451,1851763,0.0-13.0-7.0-6.0,762,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",r,,1,,,14,3
+,html-keyboard-response,452,1852621,0.0-13.0-7.0-8.0-0.0,352,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a *= 3
+   a -= 1</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,453,1856760,0.0-13.0-8.0-0.0,3633,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",9,,1,,,9,0
+,html-keyboard-response,454,1857792,0.0-13.0-8.0-2.0,525,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",0,,1,,,10,1
+,html-keyboard-response,455,1860595,0.0-13.0-8.0-4.0,2300,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",5,,1,,,5,2
+,html-keyboard-response,456,1861632,0.0-13.0-8.0-6.0,529,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",6,,1,,,6,3
+,html-keyboard-response,457,1865668,0.0-13.0-8.0-8.0,3533,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",1,,1,,,1,4
+,html-keyboard-response,458,1866517,0.0-13.0-8.0-10.0,341,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",2,,1,,,2,5
+,html-keyboard-response,459,1867424,0.0-13.0-8.0-12.0-0.0,400,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a -= 5
+   a += 1</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,460,1870614,0.0-13.0-9.0-0.0,2685,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,461,1875008,0.0-13.0-9.0-2.0,3887,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>",i,,1,,,18,1
+,html-keyboard-response,462,1876938,0.0-13.0-9.0-4.0-0.0,1426,"<div><div style=""""><a style=""white-space:pre-wrap;""> while a <= 15:
+   a *= 3</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,463,1880310,0.0-13.0-10.0-0.0,2870,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",6,,1,,,6,0
+,html-keyboard-response,464,1882555,0.0-13.0-10.0-2.0,1739,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",w,,1,,,12,1
+,html-keyboard-response,465,1885540,0.0-13.0-10.0-4.0,2476,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",4,,1,,,4,2
+,html-keyboard-response,466,1889286,0.0-13.0-10.0-6.0,3238,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",8,,1,,,8,3
+,html-keyboard-response,467,1890698,0.0-13.0-10.0-8.0-0.0,906,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2]:
+   a /= 3
+   a *= 2</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+,html-keyboard-response,468,1893920,0.0-13.0-11.0-0.0,2715,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",w,,1,,,12,0
+,html-keyboard-response,469,1895992,0.0-13.0-11.0-2.0,1570,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",y,,1,,,16,1
+,html-keyboard-response,470,1898288,0.0-13.0-11.0-4.0,1792,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",p,,1,,,20,2
+,html-keyboard-response,471,1899510,0.0-13.0-11.0-6.0-0.0,719,"<div><div style=""""><a style=""white-space:pre-wrap;""> for i in [1, 2, 3]:
+   a += 4</a><a style=""""></a></div></div>",backspace,,1,,,backspace,
+TRUE,fullscreen,472,1900018,0.0-14.0,,,,,,,,,
