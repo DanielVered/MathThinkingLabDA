@@ -7,5 +7,9 @@ cleaning_config = {
         , bool: ['response_needed', 'is_loop', 'loop_type_switch', 'correct']
     }
     , 'filter_threshold': 2.25 # iqr_grade limit for outliers detection
-    , 'results_path': r'Results\CleanedData'
+    , 'results_path': r'Results/CleanedData'
+}
+
+analysis_config = {
+    'trials_success_rate_threshold': 0.5
 }
