@@ -1,5 +1,38 @@
 import pandas as pd
-from ProcessingConfig import *
+from datetime import datetime as dt
+import ProcessingConfig as config
+
+# This file contains all the functions dealing with initial processing of the data
+# and other processing and filtering for the analysis.
+
+##############################
+##### Envelope Functions #####
+##############################
+
+def clean_data(raw_data, outliers_threshold=config.cleaning_config['filter_threshold']
+               , only_first_lines=True, filter_subjects=True, filter_trials=True, filter_steps=True):
+    print(f"original shape: {raw_data.shape}")
+    print(f"threshold for outliers detection: {outliers_threshold}")
+    
+    drop_columns(raw_data, config.cleaning_config['unnecessary_columns'])
+    convert_types(raw_data, config.cleaning_config['type_conversions'])
+    if filter_subjects:
+        filtered_data = filter_slow_subjects(raw_data, outliers_threshold)
+        filtered_data = filter_bad_subjects(filtered_data, outliers_threshold)
+        filtered_data = drop_first_loop(filtered_data)
+    filtered_data = is_first_line(filtered_data, only_first_lines=True)
+    if filter_trials:
+        filtered_data = filter_bad_trials(filtered_data
+                                          , threshold=config.cleaning_config['trials_success_rate_threshold'])
+    if filter_steps:
+        filtered_data = filter_slow_steps(filtered_data, outliers_threshold)
+        
+    print(f'final shape: {filtered_data.shape}')
+    return filtered_data
+
+def save_in_excel(data, directory=config.cleaning_config['results_path']):
+    path = directory + f'_{dt.now().strftime("%d.%m.%Y_%H-%M")}.xlsx'
+    data.to_excel(path)
 
 ##############################
 ##### Initial Processing #####
@@ -38,15 +71,17 @@ def drop_first_loop(raw_data):
     print(f"drop_first_loop: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
-def only_first_line(raw_data):    
+def is_first_line(raw_data, only_first_lines=True):    
     """ filtering out non-first lines within each loop.
     """
     # note that 'loop_step' is an id of each step in the loop, ranging 0-len(loop).
-    first_line_filter = raw_data['loop_step'] == 0
-    raw_data = raw_data[first_line_filter]
+    raw_data['is_first_line'] = raw_data['loop_step'] == 0
+    if only_first_lines:
+        raw_data = raw_data[raw_data['is_first_line']]
+    else:
+        n_first_lines = raw_data.shape[0] - raw_data['is_first_line'].sum()
+        print(f"is_first_line: There are {n_first_lines} first lines over all.")
 
-    n_rows_filtered = first_line_filter.size - first_line_filter.sum()
-    print(f"only_first_line: {n_rows_filtered} rows were filtered out.")
     return raw_data
 
 ##############################
@@ -133,7 +168,7 @@ def filter_bad_subjects(raw_data, threshold):
 def filter_bad_trials(raw_data, threshold):
     """ filtering out bad trials in terms of low success rate according to an pre-determined threshold.
     It is important to note that threshold should be within (0, 1).
-    """
+    """    
     # filtering only necessary columns
     response_success = raw_data[['subject', 'trial', 'correct']].copy()
     
@@ -185,7 +220,7 @@ def filter_slow_steps(raw_data, threshold):
         slow_rate_per_subject.fillna(0, inplace=True)
         slow_rate_per_subject = slow_rate_per_subject.sort_values(by='slow steps rate (%)')
 
-        print('Here is a summary of slow steps rate per subjects:', '\n    ', slow_rate_per_subject)
+        print('Here is a summary of slow steps rate per subjects:', '\n    ', slow_rate_per_subject.T)
     else:
         print("filter_slow_steps: No slow steps detected.")
     
