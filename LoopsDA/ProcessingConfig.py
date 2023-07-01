@@ -12,5 +12,10 @@ cleaning_config = {
 }
 
 analysis_config = {
-    
+    'is_prev_correct_cols': {
+        'subject': 'subject'
+        , 'session': 'trial_set'
+        , 'step': 'step_num'
+        , 'correct': 'correct'
+    }
 }
