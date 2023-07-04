@@ -10,17 +10,21 @@ import ProcessingConfig as config
 ##############################
 
 def clean_data(raw_data, outliers_threshold=config.cleaning_config['filter_threshold']
-               , only_first_lines=True, filter_subjects=True, filter_trials=True, filter_steps=True):
+               , drop_assign_steps=True, drop_first_loop_steps=True, only_first_lines=True
+               , filter_subjects=True, filter_trials=True, filter_steps=True):
     print(f"original shape: {raw_data.shape}")
     print(f"threshold for outliers detection: {outliers_threshold}")
     
     drop_columns(raw_data, config.cleaning_config['unnecessary_columns'])
     convert_types(raw_data, config.cleaning_config['type_conversions'])
+    if drop_assign_steps:
+        filtered_data = drop_assign(raw_data)
+    if drop_first_loop_steps:
+        filtered_data = drop_first_loop(filtered_data)
     if filter_subjects:
         filtered_data = filter_slow_subjects(raw_data, outliers_threshold)
         filtered_data = filter_bad_subjects(filtered_data, outliers_threshold)
-        filtered_data = drop_first_loop(filtered_data)
-    filtered_data = is_first_line(filtered_data, only_first_lines=True)
+    filtered_data = is_first_line(filtered_data, only_first_lines=only_first_lines)
     if filter_trials:
         filtered_data = filter_bad_trials(filtered_data
                                           , threshold=config.cleaning_config['trials_success_rate_threshold'])
@@ -65,24 +69,36 @@ def drop_first_loop(raw_data):
     # note that 'step_id' is an id of each loop within a given program, ranging 1-9,
     # where the first loop is essentially a variable assignment.
     first_loop_filter = raw_data['step_id'] != 2
-    raw_data = raw_data[first_loop_filter]
     
     n_rows_filtered = first_loop_filter.size - first_loop_filter.sum()
     print(f"drop_first_loop: {n_rows_filtered} rows were filtered out.")
-    return raw_data
+    return raw_data[first_loop_filter]
+
+def drop_assign(raw_data, step_type='loop'):
+    """ filtering out all 'assign' steps in each program.
+    """
+    # note that 'step_id' is an id of each loop within a given program, ranging 1-9,
+    # where the first loop is essentially a variable assignment.
+    assign_filter = raw_data['step_id'] != 1
+
+    n_rows_filtered = assign_filter.size - assign_filter.sum()
+    print(f"drop_assign: {n_rows_filtered} rows were filtered out.")
+    return raw_data[assign_filter]
 
 def is_first_line(raw_data, only_first_lines=True):    
     """ filtering out non-first lines within each loop.
     """
     # note that 'loop_step' is an id of each step in the loop, ranging 0-len(loop).
+    n_rows = raw_data.shape[0]
     raw_data['is_first_line'] = raw_data['loop_step'] == 0
     if only_first_lines:
-        raw_data = raw_data[raw_data['is_first_line']]
+        filtered_data = raw_data[raw_data['is_first_line']]
+        print(f"is_first_line: {n_rows - filtered_data.shape[0]} lines were filtered.")
+        return filtered_data
     else:
-        n_first_lines = raw_data.shape[0] - raw_data['is_first_line'].sum()
+        n_first_lines = raw_data['is_first_line'].sum()
         print(f"is_first_line: There are {n_first_lines} first lines over all.")
-
-    return raw_data
+        return raw_data
 
 ##############################
 ##### Outliers Filtering #####
@@ -102,20 +118,23 @@ def is_positive_outlier(x, x_q3, x_iqr, threshold):
     
     return (x - x_q3) / x_iqr >= threshold
 
-def get_outlier_grade(step: pd.Series, col: str):
-    """ Calculating an outlier grade in terms of response time within subject, using IQR.
+def get_single_anomaly_grade(x, q1, q3, iqr):
+    """"""
+    if iqr == 0 or (q1 <= x and x <= q3): # 0 means inside IQR range.
+        return 0
+    elif x < q1: 
+        return (x - q1) / iqr # negative grade
+    elif x > q3:
+        return (x - q3) / iqr # positive grade
+
+def get_multiple_anomaly_grade(step: pd.Series, col: str):
+    """ Calculating an outlier grade using a DataFrame of quantiles, with IQR.
     It is assumed that the Series has the following indices: ['q1', 'q3', 'iqr'].
     """
     x = step.loc[col]
     q1, q3, iqr = step.loc['q1'], step.loc['q3'], step.loc['iqr']
     
-    if iqr == 0 or (q1 <= x and x <= q3): # 0 means inside IQR range.
-        return 0
-    elif x < q1: 
-        return (x - q1) / iqr # negative grade --> slow step
-    elif x > q3:
-        return (x - q3) / iqr # positive grade --> fast step
-
+    return get_single_anomaly_grade(x, q1, q3, iqr)
 
 def filter_slow_subjects(raw_data, threshold):
     """filtering out slow subjects in terms of response time using IQR, according to a given threshold."""
@@ -203,7 +222,7 @@ def filter_slow_steps(raw_data, threshold):
     response_times = response_times.merge(quantiles_per_subject, how='left', left_on='subject', right_index=True)
 
     # actually filtering the outlier steps
-    response_times['outlier_grade'] = response_times.apply(get_outlier_grade, args=(['rt']), axis=1)
+    response_times['outlier_grade'] = response_times.apply(get_multiple_anomaly_grade, args=(['rt']), axis=1)
     step_outlier_mask = response_times['outlier_grade'] >= threshold
     
     slow_steps = response_times[step_outlier_mask].drop_duplicates(ignore_index=True)

@@ -6,13 +6,13 @@ cleaning_config = {
         int: ['rt', 'loop_step']
         , bool: ['response_needed', 'is_loop', 'loop_type_switch', 'correct']
     }
-    , 'filter_threshold': 2.25 # iqr_grade limit for outliers detection
+    , 'filter_threshold': 3 # iqr_grade limit for outliers detection
     , 'trials_success_rate_threshold': 0.5
     , 'results_path': r'Results/CleanedData'
 }
 
 analysis_config = {
-    'is_prev_correct_cols': {
+    'is_prev_correct_cols': { # col names for 'is_prev_correct'
         'subject': 'subject'
         , 'session': 'trial_set'
         , 'step': 'step_num'

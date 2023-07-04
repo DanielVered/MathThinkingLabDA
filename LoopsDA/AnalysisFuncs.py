@@ -36,7 +36,7 @@ def test_rt_switch_corr(data, alpha=0.05):
 def is_prev_correct(raw_data, data, columns: dict = config.analysis_config['is_prev_correct_cols']):
     """For each step in data, checking whether previous step is correct."""
     index_columns = [columns['subject'], columns['session'], columns['step']]
-    indexed = raw_data.set_index(index_columns).copy()
+    indexed = raw_data.set_index(index_columns)
     indexed = indexed[[columns['correct']]]
     
     def get_prev_correct(row):
@@ -44,7 +44,7 @@ def is_prev_correct(raw_data, data, columns: dict = config.analysis_config['is_p
         session = row.loc[columns['session']]
         step = row.loc[columns['step']]
         
-        return indexed.loc[(subject, session, (step - 1)), 'correct'] 
+        return indexed.loc[(subject, session, (step - 1)), [columns['correct']]] 
         
     data['is_prev_correct'] = data.apply(get_prev_correct, axis=1)
     
