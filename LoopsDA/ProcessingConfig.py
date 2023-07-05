@@ -17,5 +17,6 @@ analysis_config = {
         , 'session': 'trial_set'
         , 'step': 'step_num'
         , 'correct': 'correct'
+        , 'loop_step': 'loop_step'
     }
 }

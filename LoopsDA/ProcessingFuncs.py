@@ -13,26 +13,25 @@ def clean_data(raw_data, outliers_threshold=config.cleaning_config['filter_thres
                , drop_assign_steps=True, drop_first_loop_steps=True, only_first_lines=True
                , filter_subjects=True, filter_trials=True, filter_steps=True):
     print(f"original shape: {raw_data.shape}")
-    print(f"threshold for outliers detection: {outliers_threshold}")
+    print(f"threshold for outliers detection: {outliers_threshold} (iqr).")
     
     drop_columns(raw_data, config.cleaning_config['unnecessary_columns'])
     convert_types(raw_data, config.cleaning_config['type_conversions'])
     if drop_assign_steps:
-        filtered_data = drop_assign(raw_data)
+        data = drop_assign(raw_data)
     if drop_first_loop_steps:
-        filtered_data = drop_first_loop(filtered_data)
+        data = drop_first_loop(data)
     if filter_subjects:
-        filtered_data = filter_slow_subjects(raw_data, outliers_threshold)
-        filtered_data = filter_bad_subjects(filtered_data, outliers_threshold)
-    filtered_data = is_first_line(filtered_data, only_first_lines=only_first_lines)
+        data = filter_slow_subjects(data, outliers_threshold)
+        data = filter_bad_subjects(data, outliers_threshold)
+    data = is_first_line(data, only_first_lines=only_first_lines)
     if filter_trials:
-        filtered_data = filter_bad_trials(filtered_data
-                                          , threshold=config.cleaning_config['trials_success_rate_threshold'])
+        data = filter_bad_trials(data, threshold=config.cleaning_config['trials_success_rate_threshold'])
     if filter_steps:
-        filtered_data = filter_slow_steps(filtered_data, outliers_threshold)
+        data = filter_slow_steps(data, outliers_threshold)
         
-    print(f'final shape: {filtered_data.shape}')
-    return filtered_data
+    print(f'final shape: {data.shape}')
+    return data
 
 def save_in_excel(data, directory=config.cleaning_config['results_path']):
     path = directory + f'_{dt.now().strftime("%d.%m.%Y_%H-%M")}.xlsx'
@@ -68,7 +67,7 @@ def drop_first_loop(raw_data):
     """
     # note that 'step_id' is an id of each loop within a given program, ranging 1-9,
     # where the first loop is essentially a variable assignment.
-    first_loop_filter = raw_data['step_id'] != 2
+    first_loop_filter = raw_data['step_id'].isin([3, 4, 5, 6, 7, 8, 9])
     
     n_rows_filtered = first_loop_filter.size - first_loop_filter.sum()
     print(f"drop_first_loop: {n_rows_filtered} rows were filtered out.")
