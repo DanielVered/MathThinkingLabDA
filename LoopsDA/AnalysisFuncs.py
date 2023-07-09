@@ -55,3 +55,49 @@ def is_prev_correct(raw_data, data, columns: dict = config.analysis_config['is_p
     incorrect_steps = data['is_prev_correct'].size - data['is_prev_correct'].sum()
     print(f'There are {incorrect_steps} steps whose previous step is incorrect.')
     return None
+
+def get_arithmetics(data, arithmetics_col = 'arithmetic_type'
+                    , columns: dict = config.analysis_config['get_arithmetics_cols']):
+    """Extracting the type of arithmetic subject is making in every step.
+    Arithmetic types include: [+, -, /, *, average, round_up, round_down, loop_end].
+    This func adds a column to the data (DataFrame) with tuples of arithmetics in each line. 
+    """
+    loop_lines_col, loop_step_col, text_col = columns['loop_lines'], columns['loop_step'], columns['text']
+    arithmetics = ['+', '-', '/', '*', 'average', 'round_up', 'round_down']
+    
+    data[arithmetics_col] = [[] for _ in range(data.shape[0])]
+    
+    def get_arith(row):
+        text, loop_lines, loop_step = row.loc[text_col], row.loc[loop_lines_col], row.loc[loop_step_col]
+        if loop_step == -1:
+            row.loc[arithmetics_col].append('loop_end')
+        else:        
+            curr_line_idx = loop_step % loop_lines + 1 # index of current code line
+            curr_line = text.splitlines()[curr_line_idx] # text of current code line
+            for arith in arithmetics:
+                if curr_line.find(arith) != -1:
+                    row.loc[arithmetics_col].append(arith)
+        return None
+    
+    data.apply(get_arith, axis=1)
+    data[arithmetics_col] = data[arithmetics_col].apply(lambda x: str(x))
+    
+    return None
+
+def get_n_session(data, participant_ids_path=config.analysis_config['participant_ids']):
+    """ Getting the right session number using the configuration file.
+    Notice that the columns' names both of 'data' and participant_ids is fixed.
+    """
+    participant_ids = pd.read_excel(participant_ids_path)
+    participant_ids = participant_ids[['Subject ID', 'In session #1, run block #']]
+
+    data = data.merge(participant_ids, how='left', left_on=['subject', 'trial_set']
+                        , right_on=['Subject ID', 'In session #1, run block #'])
+
+    data.rename(columns={'In session #1, run block #': 'n_session'}, inplace=True)
+    data['n_session'] = data['n_session'].replace(2.0, 1.0)
+    data['n_session'].fillna(2.0, inplace=True)
+    data['n_session'] = data['n_session'].astype(int)
+    
+    data.drop('Subject ID', axis=1)
+    return data

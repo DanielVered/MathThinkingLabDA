@@ -19,4 +19,12 @@ analysis_config = {
         , 'correct': 'correct'
         , 'loop_step': 'loop_step'
     }
+    , 'get_arithmetics_cols':{
+        'loop_lines': 'n_loop_lines'
+        , 'loop_step': 'loop_step'
+        , 'text': 'text1'
+        
+    }
+    , 'participant_ids': '../../msa-1/scripts/loops1/exp1_data/results/raw/Participant IDs.xlsx'
 }
+
