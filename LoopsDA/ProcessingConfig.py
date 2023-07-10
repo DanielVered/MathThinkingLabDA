@@ -18,6 +18,7 @@ analysis_config = {
         , 'step': 'step_num'
         , 'correct': 'correct'
         , 'loop_step': 'loop_step'
+        , 'step_type': 'step_type'
     }
     , 'get_arithmetics_cols':{
         'loop_lines': 'n_loop_lines'

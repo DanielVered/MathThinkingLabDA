@@ -33,26 +33,28 @@ def test_rt_switch_corr(data, alpha=0.05):
 ########## Filtering #########
 ##############################
 
-def is_prev_correct(raw_data, data, columns: dict = config.analysis_config['is_prev_correct_cols']):
+def is_prev_correct(raw_data, data, columns: dict = config.analysis_config['is_prev_correct_cols']
+                    , check_loop_type_switch=True):
     """For each step in data, checking whether previous step is correct."""
     index_columns = [columns['subject'], columns['session'], columns['step']]
     indexed = raw_data.set_index(index_columns)
-    indexed = indexed[[columns['correct'], columns['loop_step']]]
+    indexed = indexed[[columns['correct'], columns['loop_step'], columns['step_type']]]
     
     def get_prev_correct(row):
         subject = row.loc[columns['subject']]
         session = row.loc[columns['session']]
         step = row.loc[columns['step']]
+        step_type = row.loc[columns['step_type']]
         
         prev_loop_step = indexed.loc[(subject, session, (step - 2)), columns['loop_step']]
-        if prev_loop_step == -1: # previous step is 'assign' - False by default
-            return indexed.loc[(subject, session, (step - 2)), columns['correct']] 
-        else: # previous step is a regular step:
-            return indexed.loc[(subject, session, (step - 1)), columns['correct']] 
+        if step_type == 'assign':
+            print('Problem in get_prev_correct: assign step is found within data.')
+        else: # previous step required a response
+            return indexed.loc[(subject, session, (step - 1)), columns['correct']]
         
     data['is_prev_correct'] = data.apply(get_prev_correct, axis=1)
     
-    incorrect_steps = data['is_prev_correct'].size - data['is_prev_correct'].sum()
+    incorrect_steps = data['is_prev_correct'].size - (data['is_prev_correct'] == 1).sum()
     print(f'There are {incorrect_steps} steps whose previous step is incorrect.')
     return None
 
