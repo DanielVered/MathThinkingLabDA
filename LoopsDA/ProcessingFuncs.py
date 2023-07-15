@@ -10,6 +10,7 @@ import ProcessingConfig as config
 ##############################
 
 def clean_data(raw_data, outliers_threshold=config.cleaning_config['filter_threshold']
+               , trials_success_threshold=config.cleaning_config['trials_success_rate_threshold']
                , drop_assign_steps=True, drop_first_loop_steps=True, only_first_lines=True
                , filter_subjects=True, filter_trials=True, filter_steps=True):
     print(f"original shape: {raw_data.shape}")
@@ -26,7 +27,7 @@ def clean_data(raw_data, outliers_threshold=config.cleaning_config['filter_thres
         data = filter_bad_subjects(data, outliers_threshold)
     data = is_first_line(data, only_first_lines=only_first_lines)
     if filter_trials:
-        data = filter_bad_trials(data, threshold=config.cleaning_config['trials_success_rate_threshold'])
+        data = filter_bad_trials(data, threshold=trials_success_threshold)
     if filter_steps:
         data = filter_slow_steps(data, outliers_threshold)
         
