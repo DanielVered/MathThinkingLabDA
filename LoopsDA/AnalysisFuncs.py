@@ -23,7 +23,7 @@ def get_sample_size(data, subject_col='subject', session_col='trial_set'):
 
 def test_rt_switch_corr(data, alpha=0.05, col1='loop_type_switch', col2='rt', print_msg=True):
     """Checking for a significant pearson correlation between switching and response time."""
-    r, p_val = stats.pearsonr(data['loop_type_switch'], data['rt'])
+    r, p_val = stats.pearsonr(data[col1], data[col2])
     if print_msg:
         significance = 'significant' if p_val < alpha else 'not significant'
         print(f"""Pearson correlation between loop type switching and response time 
