@@ -26,11 +26,9 @@ def test_rt_switch_corr(data, alpha=0.05, col1='loop_type_switch', col2='rt', pr
     r, p_val = stats.pearsonr(data[col1], data[col2])
     if print_msg:
         significance = 'significant' if p_val < alpha else 'not significant'
-        print(f"""Pearson correlation between loop type switching and response time 
-            is {significance} (p = {round(p_val, 3)}), with value of r = {round(r, 3)}""")
-        return None
-    else:
-        return r
+        print(f"""Pearson correlation between {col1} and {col2} 
+            is {significance} (p = {round(p_val, 6)}), with value of r = {round(r, 4)}""")
+    return r
     
 ##############################
 ########## Filtering #########

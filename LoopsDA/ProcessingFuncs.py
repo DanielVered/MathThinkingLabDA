@@ -34,8 +34,8 @@ def clean_data(raw_data, outliers_threshold=config.cleaning_config['filter_thres
     print(f'final shape: {data.shape}')
     return data
 
-def save_in_excel(data, directory=config.cleaning_config['results_path']):
-    path = directory + f'_{dt.now().strftime("%d.%m.%Y_%H-%M")}.xlsx'
+def save_in_excel(data, name, directory=config.cleaning_config['results_path']):
+    path = directory + name + f'_{dt.now().strftime("%d.%m.%Y_%H-%M")}.xlsx'
     data.to_excel(path)
 
 ##############################

@@ -6,8 +6,8 @@ cleaning_config = {
         int: ['rt', 'loop_step']
         , bool: ['response_needed', 'is_loop', 'loop_type_switch', 'correct']
     }
-    , 'filter_threshold': 3 # iqr_grade limit for outliers detection
-    , 'trials_success_rate_threshold': 0.5
+    , 'filter_threshold': 2.25 # iqr_grade limit for outliers detection
+    , 'trials_success_rate_threshold': 0
     , 'results_path': r'Results/CleanedData'
 }
 
@@ -20,7 +20,7 @@ analysis_config = {
         , 'loop_step': 'loop_step'
         , 'step_type': 'step_type'
     }
-    , 'get_arithmetics_cols':{
+    , 'get_arithmetics_cols':{ 
         'loop_lines': 'n_loop_lines'
         , 'loop_step': 'loop_step'
         , 'text': 'text1'
